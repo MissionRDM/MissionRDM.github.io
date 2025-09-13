@@ -1,0 +1,469 @@
+{
+  "startScreen": {
+    "title": "BIENVENUE DANS VOTRE MISSION GDR",
+    "subtitle": "Un jeu sérieux pour apprendre la GDR (Gestion des Données de Recherche). Bonne chance !",
+    "enterName": "Entrez votre nom :",
+    "namePlaceholder": "Votre nom",
+    "startGame": "Démarrer le jeu",
+    "tutorial": "Tutoriel",
+    "nameError": "Votre nom ne peut que contenir des lettres et des chiffres"
+  },
+  "intro": {
+    "text": "Vous faites partie d’une jeune équipe de recherche d'un institut en tourisme en Suisse et prévoyez de vous lancer dans un projet de recherche sur l’hôtellerie en Suisse.\n\nVotre collègue, Anne, avec son équipe, a déjà mené une étude sur le sujet. Contrairement à elle, vous n’êtes pas au clair sur les besoins liés à la gestion de vos données, car vous n'avez pu participer à la formation de la Bibliothèque sur la thématique de la gestion des données de la recherche.\n\nVotre collègue part en vacances en Amazonie cet après-midi. Juste avant son départ, elle rédige rapidement l’ébauche d’une feuille de route avec les grandes étapes pour mener à bien votre projet et assurer une gestion adéquate de vos données.\n\nComme son avion va bientôt décoller, elle n’a pas le temps de terminer et vous propose de vous installer à son bureau où vous trouverez toutes les informations pour compléter la liste qu’elle a commencée, à condition de fouiller un peu dans ses affaires et celles de son équipe...\n\nHeureusement, vous pouvez aussi compter sur Santiago, le spécialiste en information documentaire qui travaille dans la bibliothèque de votre institution, Inès, l’informaticienne, ainsi que Jack le juriste, qui vous aideront pendant votre quête.\n\nMais attention, il ne reste qu’une heure avant la fermeture de l’institut pour les vacances de Noël, il vous faut donc sortir avant cela si vous ne voulez pas y rester coincés !",
+    "continue": "Continuer"
+  },
+  "congrats": {
+    "title": "Félicitations !",
+    "subtitle": "Niveau {level} Terminé !",
+    "achievement": "Vous avez débloqué un badge !",
+    "message": "Vous avez terminé avec succès tous les objectifs de ce niveau !",
+    "continue": "Continuer",
+    "timeMessage": "Vous avez pris {time} pour le niveau {level}.",
+    "averageMessage": " La moyenne pour ce niveau est de {avgTime}.",
+    "fastMessage": " Excellent ! Vous l'avez résolu avec une grande concentration !",
+    "thoroughMessage": " Bien joué ! Prendre son temps pour résoudre les énigmes en profondeur, c'est formidable !",
+    "noDataMessage": " Fantastique travail pour terminer le niveau !"
+  },
+  "tutorial": {
+    "title": "Tutoriel",
+    "subtitle": "Dans ce jeu, vous découvrirez les bases de la gestion des données de recherche (GDR) à travers une série de défis. Votre mission: compléter votre feuille de route afin d'obtenir un guide simple en étapes sur la gestion des données de la recherche.",
+    "instructions": "Observez minutieusement votre environnement, repérez les chiffres, les éléments cliquables et les indices qui vous permettront de progresser dans le jeu afin d'identifier les tâches de gestion des données qui compléterons votre feuille de route.",
+    "step1": "Votre téléphone vous permettra d'entrer les chiffrés trouvés et demander de l'aide.",
+    "step2": "Une équipe de trois spécialistes vous accompagnera dans votre quête: Santiago, le spécialiste en information documentaire, Inès, l'informaticienne et Jack, le juriste.",
+    "step3": "En cliquant sur la feuille de route, vous verrez les étapes du cycle de vie des données déjà complétées.",
+    "step4": "Vous êtes désormais prêt-e-s à relever le défi de Mission GDR ! A vous de jouer !",
+    "backToStart": "Retour"
+  },
+  "timer": {
+    "penaltyWarning": "Avertissement de Pénalité de Temps",
+    "hintPenaltyWarning": "Utiliser un indice ajoutera 30 secondes à votre chronomètre. Êtes-vous sûr de vouloir continuer ?",
+    "solutionPenaltyWarning": "Consulter la solution ajoutera 60 secondes à votre chronomètre. Êtes-vous sûr de vouloir continuer ?",
+    "acceptPenalty": "Accepter la Pénalité",
+    "cancel": "Annuler"
+  },
+  "phone": {
+    "help": "AIDE",
+    "close": "Fermer",
+    "solution": "SOLUTION",
+    "placeholder": "Code",
+    "delete": "⌫",
+    "enter": "Valider",
+    "callUnavailable": "Je ne peux pas parler pour le moment. Essayez de m'appeler plus tard.",
+    "call1": "Hello {playerName} ! Vous avez besoin d'aide en ce qui concerne les conventions de nommage ? Voici quelques conventions de nommage qui pourraient vous aider :\n\n→ Choisir un nom de fichier court et significatif : max 32 caractères, commencer par l'élément le plus important et utiliser des abréviations prédéfinies pour réduire le nombre de caractères.\n\n→ Le nom du fichier doit contenir le sujet, la date et la version. Éviter les caractères spéciaux, la ponctuation et les caractères accentués.\n\n→ Éviter les espaces entre les mots; utiliser le tiret souligné (underscore) \"_\" et des majuscules. Indiquer les dates dans le bon format comme AAAAMMJJ ou AAAA-MM-JJ.\n\n→ Indiquer les versions comme V05 ou VF pour version finale. \n\nBonne chance et n'hésitez pas à me rappeler si vous avez besoin d'aide !",
+    "call2": "Hello {playerName} ! Je vais vous expliquer cela par téléphone. Afin de nettoyer les données, il faut éliminer les champs superflus et faciliter leur analyse en assurant leur standardisation. \n\nPour cela, plusieurs logiciels peuvent être utilisés. Cela dépend du type de données, de leur quantité, des ressources à disposition, des connaissances de l’équipe. Voici quelques exemples d'outils gratuits: OpenRefine ou R. \n\nComment nettoyer les données ?\n\n→ Identifier les données essentielles (p. ex. supprimer certains champs ajoutés automatiquement par le système de gestion utilisé pour la collecte)\n→ Identifier et éliminer les doublons\n→ Résoudre les valeurs vides\n→ Assurer la cohérence des données (toutes les données de même type doivent avoir la même forme)\n\nAttention : gardez toujours une version brute de votre fichier, et notez toutes les étapes de nettoyage pour assurer la transparence et la reproductibilité de votre démarche !  \n\nAjoutez le fichier correct au logiciel d'analyse. \n\nBonne chance et n'hésitez pas à m'appeler si vous avez besoin d'aide !",
+    "call3": "Hello {playerName} ! Je vous donne quelques informations sur les formats de fichiers ouverts. \n\nUn format ouvert est un format de fichier pouvant être lu par plusieurs logiciels. L’utilisation de formats ouverts a deux objectifs principaux :\n\n→ Assurer un accès à vos documents sans vous soucier du logiciel utilisé par les personnes qui les consulteront dans le futur.\n→ Assurer la pérennité de vos documents, afin de pouvoir les ouvrir même si le logiciel utilisé pour les créer n’est pas disponible ou n’existe plus.\n\nJe vous enverrai un e-mail contenant des informations supplémentaires sur les différents types de formats et les extensions de formats de fichiers. Cela vous aidera. A bientôt !",
+    "call4": "Bonjour {playerName}, \n\nPendant un projet de recherche, de nombreuses données sont créées et il n’est pas possible de toutes les archiver/conserver, pour plusieurs raisons : \n\n→ Coûts liés à l’archivage \n→ Plus le volume de données archivées est élevé, plus leur découverte est compliquée \n→ Coûts liés au maintien et à la création de métadonnées \n\n Il est donc nécessaire de 4.2 identifier la valeur des données et les données à conserver \n\nVous vous demandez peut-être comment évaluer les données et sélectionner lesquelles doivent être archivées ?  Cela dépend de nombreux critères. Je vous envoie le fichier qui explique tous les détails. \n\nÀ bientôt !",
+    "call5": "Bonjour {playerName}, \n\nJe vous appelle pour vous donner plus d'informations. \n\nIl est nécessaire de 4.3 ajouter des métadonnées adéquates aux données stockées, afin de permettre leur recherche et leur découverte. Les métadonnées sont généralement présentées comme des «données à propos des données».\n\nIl existe plusieurs types de métadonnées :\n\n→ Métadonnées descriptives : titre, sujet, créateurs des données… \n→ Métadonnées administratives : formats de fichiers, versions, droits de réutilisation… \n→ Métadonnées structurelles : relations avec d’autres entités, liste de variables…\n\nJe vous envoie un exemple de métadonnées du projet de vos collègues au format XML. Rappelez-moi dès que vous avez reçu l'exemple.",
+    "call6": "Merci d'avoir rappelé {playerName} ! \n\nA l’inverse de la documentation des données qui a pour objectif d’être interprétable par des humains uniquement, les métadonnées doivent pouvoir être lues par des machines afin de permettre leur découverte sur le web, c’est pourquoi elles sont souvent décrites en XML. \n\nDes outils peuvent aider les équipes à rédiger leurs métadonnées au format XML, par exemple le Datacite Metadata Generator. \n\nCe sont des renseignements standardisés. Il en existe de nombreux schémas, disciplinaires ou généralistes. \n\nBon, j'espère que ça a éclairci les choses ! Il faut que j'y aille, les courses de Noël ne se font pas toutes seules. Oh, et avant que j'oublie, additionnez tous les chiffres SEULEMENT des indications d'années pour continuer, à plus tard !",
+    "call7": "Hello {playerName}, \n\nOui, je me souviens qu'ils ont en effet hésité...\n\n Laissez-moi réfléchir...\n\n… Je me souviens, finalement, l’équipe a choisi un dépôt gratuit et ayant ses serveurs en Suisse.\n\nAjoutez 70 au numéro du dépôt choisi. \n\n Bonne chance pour la suite !",
+    "call8": "Bonjour, Jack à l'appareil. \n\nAh, oui {playerName}, la discussion sur les creative commons et le droit d'auteur. Je me souviens…\n\n Permettez-moi tout d'abord de vous aider avec quelques mots. Les licences creative commons sont des licences de diffusion qui permettent d'accorder à l'avance certains droits d'utilisation sur les œuvres diffusées mais elles restent complémentaires au droit d'auteur. \n\n Je vous enverrai un petit aperçu des options de licence. Il y a des icônes, des formulations juridiques et toutes ces bonnes choses.",
+    "call9": "Hello {playerName}, \n\nj’ai entendu dire que tu avais besoin d’un coup de main avec les identifiants, c’est bien ça ? Laisse-moi t’aider.\n\nIl existe deux types d’identifiants : \n→ identifiants objet pour les publications et les données\n→ identifiants contributeur pour les auteur-e-s et les institutions\n\nVoici des exemples d’identifiants\n → Handle 20.1000/100\n → DOI doi:10.1000/182\n → ORCID 0000-0002-1825-0097\n → ArXiv author ID arXiv:0706.0001\n\nPar exemple, Handle et DOI sont des identifiants d’objets numériques. Alors que ORCID et ArXiv author ID sont des identifiants de contributeurs. \n\n Bonne chance !",
+    "hoverCall": "Appeler",
+    "codeAlreadyFound": "Déjà trouvé",
+    "codeFound": "Code correct",
+    "invalidCode": "Code incorrect",
+    "messageBodylvl1": "Bonjour {playerName}, \n\nLe DMP ou Plan de gestion de données est un document qui est rédigé dans la phase préliminaire d’un projet puis complété au fur et à mesure de l’avancée de la recherche. Il aide à organiser et anticiper toutes les étapes du cycle de vie de la donnée. Il explique comment les données du projet sont gérées, de la création jusqu’au partage et à l’archivage.\n\nLes étapes que vous allez découvrir dans la suite de vos investigations vont vous permettre de comprendre comment bien remplir chaque partie du DMP.\n\nBonne chance !",
+    "messageBodylvl2": "Bonjour {playerName}, \n\nUn de nos collègues a enregistré plusieurs versions des données recueillies via le questionnaire pendant le processus de nettoyage. Je vous les envoie tout de suite. Pourriez-vous, s’il vous plaît, les analyser ? Parmi les trois, quelle version est la plus propre ? Quelle option pourrions-nous ajouter au logiciel d’analyse ? C'est plus simple si je vous explique par téléphone. Je vous appelle tout de suite.",
+    "messageBodylvl3": "Bonjour {playerName}, \n\nEn résumé, lorsque les équipes de recherche se préparent à archiver leurs données, elles doivent s’assurer de choisir des formats qui sont : \n\n→ ouverts \n→ non chiffrés \n→ non compressés \n→ utilisés et reconnus dans leur domaine \n→ interopérables \n\nJ'espère que cela vous a aidé ! À bientôt !",
+    "messageBodylvl4": "Salut {playerName}, \n\nJe viens d’embarquer! J’ai  trop hâte *.* J’ai oublié de te prévenir : pour les infos sur le partage des données, consulte l’ordinateur de Rachel, il doit être dans son bureau (le numéro 47). Bonnes vacances! P.S: N’oublie pas de rentrer chez toi avant la fermeture ;)",
+    "incomingCall": "Appel entrant",
+    "outgoingCallRequired": "Appel requis",
+    "answerCall": "Appuyez pour répondre",
+    "makeCall": "Appuyez pour passer l'appel",
+    "placeholderIncoming": "Répondez d'abord...",
+    "placeholderOutgoing": "Appelez d'abord...",
+    "answerFirst": "Répondre d'abord",
+    "callFirst": "Appeler d'abord",
+    "mustCallFirst": "Vous devez d'abord gérer l'appel en attente !",
+    "endCall": "Terminer l'appel",
+    "media": "Téléphone portable",
+    "connection": "Connecté"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "entries": "Aucune entrée pour l'instant...",
+    "complete": "Terminé",
+    "step1": "Étape 1. Elaboration et planification du projet",
+    "step1_1": "1.1 Rédiger le DMP",
+    "step1_1_A": "A. Informations administratives",
+    "step1_1_B": "B. Collecte des données",
+    "step1_1_C": "C. Documentation et métadonnées",
+    "step1_1_D": "D. Éthique et conformité légale",
+    "step1_1_E": "E. Stockage et sauvegarde",
+    "step1_1_F": "F. Sélection et conservation",
+    "step1_1_G": "G. Partage des données",
+    "step1_1_H": "H. Responsabilités et ressources",
+    "step1_2": "1.2 Règles de nommage et d’organisation des fichiers",
+    "step1_3": "1.3 Réfléchir aux données produites ou réutilisées",
+    "step1_4": "1.4 Réfléchir aux aspects juridiques et éthiques",
+    "step1_5": "1.5 Analyser les coûts liés au stockage",
+    "step2": "Étape 2. Collecte/création des données",
+    "step2_1": "2.1 Stratégies de sauvegarde et de stockage",
+    "step2_2": "2.2 Collecter/acquérir des données",
+    "step2_3": "2.3 Documenter son projet",
+    "step3": "Étape 3. Traitement et analyse des données",
+    "step3_1": "3.1 Nettoyer les données",
+    "step3_2": "3.2 Analyse des données",
+    "step3_3": "3.3 Visualisation des données ",
+    "step4": "Etape 4. Préservation et archivage des données",
+    "step4_1": "4.1 Utiliser des formats de fichiers ouverts",
+    "step4_2": "4.2 Identifier la valeur des données et les données à conserver",
+    "step4_3": "4.3 Ajouter des métadonnées ",
+    "step4_4": "4.4 Anonymiser les données (si nécessaire)",
+    "step5": "Etape 5. Partage des données",
+    "step5_1": "5.1 Choisir un dépôt de données",
+    "step5_2": "5.2 Déterminer les conditions d’accès",
+    "step5_3": "5.3 Choix d’un identifiant pérenne",
+    "step5_4": "5.4 Attribuer une licence de réutilisation",
+    "step6": "Etape 6. Réutilisation des données",
+    "step6_1": "6.1 Évaluer la consultation et la réutilisation ",
+    "step6_2": "6.2 Préparer la citation du dataset"
+  },
+  "riddle": {
+    "submit": "Soumettre"
+  },
+  "riddle1": {
+    "title1": "1.1 Rédiger le DMP",
+    "question1": "Essayez de résoudre cette énigme pour trouver les premières étapes de la feuille de route. Utilisez ce que vous voyez ici pour trouver la réponse.\n\nEntrez dans chaque champ de saisie une des étapes. Vous n'avez pas besoin d'utiliser 1.1., B., C., E., F. et G. dans vos réponses.\n\nBonne chance !",
+    "placeholder1": "Entrez votre réponse ",
+    "placeholder2_1": "1.1.",
+    "placeholder2_2": "B.",
+    "placeholder2_3": "C.",
+    "placeholder2_4": "E.",
+    "placeholder2_5": "F.",
+    "placeholder2_6": "G.",
+    "correctAnswers1": [
+      "Rédiger le DMP",
+      "Collecte des données",
+      "Documentation et métadonnées",
+      "Stockage et sauvegarde",
+      "Sélection et conservation",
+      "Partage de données"
+    ],
+    "correct1": "Correct, bien joué !",
+    "incorrect1": "Incorrect, essayez à nouveau ! Vous n'avez pas besoin d'utiliser 1.1., B., C., E., F. et G. dans vos réponses."
+  },
+  "riddle2": {
+    "title": "Erreur",
+    "incorrect77": "Incorrect, essayez à nouveau ! Ce fichier n'utilise pas les meilleures pratiques de nommage. Il n'est pas recommandé d'utiliser de la ponctuation dans les noms de fichiers.",
+    "incorrect82": "Incorrect, essayez à nouveau ! Ce fichier n'utilise pas les meilleures pratiques de nommage. Il existe une meilleure façon d'indiquer les versions d'un fichier.",
+    "incorrect25": "Incorrect, essayez à nouveau ! Ce fichier n'utilise pas les meilleures pratiques de nommage. Vous devriez éviter d'utiliser des caractères spéciaux et des espaces entre les mots."
+  },
+  "riddle3": {
+    "title": "Erreur",
+    "incorrect76": "Incorrect, ce fichier ne correspond pas à la meilleure version des données nettoyées. Les données sont complètement mélangées, certaines cellules sont vides sans explication et il y a des données dupliquées.",
+    "incorrect78": "Incorrect, ce fichier ne correspond pas à la meilleure version des données nettoyées. Les données ne sont pas normalisées, certaines cellules sont vides sans explication et il y a des données dupliquées."
+  },
+  "riddle4": {
+    "title": "Erreur",
+    "incorrect": "Mauvaise réponse ! Essayez à nouveau !"
+  },
+  "riddle5": {
+    "title": "Erreur",
+    "incorrect93": "Mauvaise réponse ! Dans notre cas, les données doivent être accessibles, en plus de la publication de l’article scientifique. En effet, l’équipe de recherche a souhaité être conforme aux bonnes pratiques de l’Open Access. Essayez à nouveau !",
+    "incorrect94": "Mauvaise réponse ! Dans notre cas, l’équipe de recherche ne peut pas rendre les données accessibles uniquement sur demande. Cette pratique ne respecte pas les recommandations de l’Open Access. Essayez à nouveau !",
+    "incorrect95": "Mauvaise réponse ! Dans notre cas, les données ne sont pas protégées par un embargo. En effet, un embargo est utilisé dans le cas où la publication se fait avant le partage des données. Cela peut être le cas quand les données sont liées à des enjeux commerciaux, comme un brevet par exemple. Essayez à nouveau !"
+  },
+  "riddle6": {
+    "title": "Erreur",
+    "incorrect": "Mauvaise réponse ! Essayez à nouveau !"
+  },
+  "hints": {
+    "checkRoadmap": "Vérifiez votre feuille de route"
+  },
+  "level1": {
+    "hints": {
+      "first": "Besoin d’une petite pause ? Un café pourrait vous aider.",
+      "second": "Comptez les post-it sur le bureau.",
+      "third": "Regardez la date à laquelle vous devez rendre le DMP.",
+      "fourth": "C’est un message codé ! L’indice est écrit directement à l’endroit où vous entrez la solution. Utilisez le titre comme clé de déchiffrement. Entrez à nouveau le code 29 et essayez de le déchiffrer.",
+      "fifth": "Avez-vous vérifié l'explorateur de fichiers ? Essayez peut-être de l'ouvrir.",
+      "sixth": "L’un des dossiers semble particulièrement intéressant.",
+      "seventh": "Quel fichier respecte le mieux les règles de nommage présentées par Santiago ?",
+      "eigth": "Vous avez organisé la structure de votre projet... assurez-vous maintenant que l'accès est accordé pour continuer."
+    },
+    "solutions": {
+      "first": "Entrez le chiffre 8 (dans la tasse à café).",
+      "second": "Il y a 4 grands post-it sur le bureau -> Entrez le chiffre 4.",
+      "third": "Entrez le chiffre 29 (dans le carnet de notes).",
+      "fourth": "Entrez le chiffre 29 à nouveau et entrez la solution suivante:\nRédiger le DMP\ndonnées collectées\ndocumentation et métadonnées\nstockage et sauvegarde\nsélection et conservation\npartage des données",
+      "fifth": "Cliquez sur l'icône de l'explorateur de fichiers à l'écran pour l'ouvrir.",
+      "sixth": "Cliquez sur le dossier \"Dossier-Click-Version\" pour l'ouvrir.",
+      "seventh": "OFS_Continental_20200628_V01.png -> Entrez le chiffre 28.",
+      "eigth": "Cliquez sur le dossier \"Acces_Accorde\" pour passer a l'étape suivante."
+    }
+  },
+  "level2": {
+    "hints": {
+      "first": "Des clés peuvent aider à ouvrir des portes.",
+      "second": "Un petit peu de mathématiques sera certainement nécessaire.",
+      "third": "Regardez les noms des feuilles, que pourrait contenir ce fichier... ... + celui-ci ?",
+      "fourth": "Parfois, les exemples sont le meilleur moyen de comprendre.",
+      "fifth": "Le bureau de réception est un bon point de départ.",
+      "sixth": "Un petit peu de mathématiques sera certainement nécessaire.",
+      "seventh": "Est-ce qu'il n'y a pas un indice derrière la plante ?",
+      "eighth": "Il va falloir marcher un peu."
+    },
+    "solutions": {
+      "first": "Entrez le chiffre 9 (dans la boîte à clés).",
+      "second": "Entrez le chiffre 15 (Numéro de sauvegarde : 7,5 x 2).",
+      "third": "Entrez le chiffre 31 (Addition des deux noms de feuilles -> 15 + 16).",
+      "fourth": "Entrez le chiffre 1 (examp1e.odt).",
+      "fifth": "Entrez le chiffre 36 (R36CEPTION sur le bureau d'accueil).",
+      "sixth": "Entrez le chiffre 7 (3 + 2 + 1 + 1 = 7).",
+      "seventh": "Cliquez sur le post-it derrière la plante pour le lire.",
+      "eighth": "Entrez le chiffre 11 (11ème étage)."
+    }
+  },
+  "level3": {
+    "hints": {
+      "first": "Le livre pourrait vous donner un indice.",
+      "second": "Le chapitre du livre semble intéressant.",
+      "third": "Avez-vous quelque chose de prévu pour ce mois ?",
+      "fourth": "Parfois, nous devons être un peu patients avec la technologie.",
+      "fifth": "Avez-vous ouvert tous les fichiers qu'Inès vous a envoyés ?",
+      "sixth": "Il semble que vous devez + un fichier pour commencer l'analyse",
+      "seventh": "Quelle marque d'ordinateur préférez-vous ?",
+      "eighth": "L'infographie montre le nombre d’hôtels recensés.",
+      "ninth": "Avez-vous remarqué le tableau d'affichage derrière le bureau de votre collègue ?",
+      "tenth": "Contactez le service informatique."
+    },
+    "solutions": {
+      "first": "Entrez le chiffre 17 (le titre du livre en chiffres romains).",
+      "second": "Entrez le chiffre 33 (le numéro de chapitre dans le livre).",
+      "third": "Cliquez sur le 19 du mois dans le calendrier pour continuer.",
+      "fourth": "Soyez patient, parfois la technologie met un peu plus de temps à charger. Cela se chargera automatiquement dans quelques secondes.",
+      "fifth": "Entrez les chiffres 57, 58 et 59 (les trois fichiers qu'Inès vous a envoyés).",
+      "sixth": "Entrez le chiffre 77 (le fichier correct (58) + le numéro du pc (19)).",
+      "seventh": "Entrez le chiffre 22 (\"marque d'ordinateur\" sur le bureau).",
+      "eighth": "Entrez le chiffre 64 (le numéro est écrit en gras sur l'infographie).",
+      "ninth": "Cliquez sur le post-it sur le tableau d'affichage pour le lire.",
+      "tenth": "Entrez le chiffre 99 (le numéro de téléphone du service informatique sur le post-it)."
+    }
+  },
+  "level4": {
+    "hints": {
+      "first": "Les écrans pourraient être utiles.",
+      "second": "Appelez Inès pour obtenir de l'aide.",
+      "third": "Inès vous a envoyé des fichiers, les avez-vous vérifiés ?",
+      "fourth": "Inès vous a envoyé des fichiers, les avez-vous vérifiés ?",
+      "fifth": "Trouvez tous les nombres dans la colonne « formats acceptables » et additionnez-les.",
+      "sixth": "Un logo peut parfois contenir des informations utiles.",
+      "seventh": "Appelez Santiago pour obtenir de l'aide.",
+      "eighth": "Santiago vous a envoyé un e-mail, l'avez-vous vérifié ?",
+      "ninth": "Certaines lettres sont mises en évidence, que pourraient-elles signifier ?",
+      "tenth": "Santiago vous a envoyé un e-mail, l'avez-vous vérifié ?",
+      "eleventh": "Rappelez Santiago pour obtenir des informations.",
+      "twelfth": "Santiago vous a donné un indice lors de l'appel, l'avez-vous vérifié ? (indice : 2020 = 2 + 0 + 2 + 0 = 4)",
+      "thirteenth": "Anne vous a envoyé dans le message le numéro du bureau où vous pouvez trouver l'ordinateur de Rachel. Pour relire le message, entrez le numéro 99."
+    },
+    "solutions": {
+      "first": "Cliquez sur l'explorateur de fichiers sur l'écran pour l'ouvrir.",
+      "second": "Cliquez sur l'icône pour appeler Inès et obtenir de l'aide.",
+      "third": "Entrez le numéro 4 (FORM4T).",
+      "fourth": "Entrez le numéro 51 (EXTEN51ONS).",
+      "fifth": "Entrez le numéro 23 (5 + 4 + 2 + 3 + 3 + 3 + 3 = 23).",
+      "sixth": "Entrez le numéro 81 (côté du bureau).",
+      "seventh": "Cliquez sur l'icône pour appeler Santiago et obtenir de l'aide.",
+      "eighth": "Entrez le numéro 1 (un nouveau message).",
+      "ninth": "Entrez le numéro 61 (lisez les lettres mises en évidence pour trouver le nombre soixante-et-un).",
+      "tenth": "Cliquez sur le message de Santiago pour le lire.",
+      "eleventh": "Cliquez sur l'icône pour appeler Santiago et obtenir des informations.",
+      "twelfth": "Entrez le numéro 32 (additionnez tous les nombres des années).",
+      "thirteenth": "Entrez le numéro 47 (le numéro du bureau où vous pouvez trouver l'ordinateur de Rachel)."
+    }
+  },
+  "level5": {
+    "hints": {
+      "first": "Tous les chiffres ne se cachent pas dans les fichiers, certains sont dans les noms.",
+      "second": "L'histoire est gravée sur l'écran.",
+      "third": "Appelez Santiago pour obtenir de l'aide.",
+      "fourth": "Santiago a expliqué comment l'équipe de recherche a choisi le dépôt, avez-vous vérifié ?",
+      "fifth": "Jack vous a envoyé un e-mail, l'avez-vous vérifié ?",
+      "sixth": "Jack a expliqué comment l'équipe de recherche a choisi les conditions d'accès, avez-vous vérifié ?",
+      "seventh": "Appelez Jack pour obtenir de l'aide.",
+      "eighth": "Jack vous a envoyé un email, avez-vous lu le fichier pdf en pièce jointe ?",
+      "ninth": "Laquelle des licences de réutilisation de droits d'auteur convient le mieux aux besoins de l'équipe de recherche ?",
+      "tenth": "Appelez Inès pour obtenir de l'aide.",
+      "eleventh": "Quel identifiant correspond à celui d'un jeu de données ? Inès vous l'a expliqué pendant l'appel. Rappelez-la si vous avez besoin de plus d'informations.",
+      "twelfth": "Est-ce Rachel qui a écrit sur la tablette ? Cela semble intéressant..."
+    },
+    "solutions": {
+      "first": "Entrez le chiffre 3 (re3data.org sur l'écran)",
+      "second": "Entrez le chiffre 19 (CHICAGO COVID-19 RESPONSE sur l'écran).",
+      "third": "Appelez Santiago pour obtenir de l'aide.",
+      "fourth": "Entrez le chiffre 71 (seul dépôt avec des serveurs en Suisse et gratuit).",
+      "fifth": "Cliquez sur l'e-mail de Jack pour le lire.",
+      "sixth": "Entrez le chiffre 96 (les données sont librement disponibles et accessibles à tous).",
+      "seventh": "Appelez Jack pour obtenir de l'aide.",
+      "eighth": "Entrez le chiffre 8 (CopyEIGHT.pdf au lieu de copyright).",
+      "ninth": "Entrez le chiffre 6 (celui-ci permet la réutilisation des données à condition qu'ils soient crédités pour le travail).",
+      "tenth": "Appelez Inès pour obtenir de l'aide.",
+      "eleventh": "Entrez le chiffre 84 (le DOI est correct).",
+      "twelfth": "Cliquez sur la tablette pour continuer."
+    }
+  },
+  "level6": {
+    "hints": {
+      "first": "Pour mémoriser les choses, il est parfois utile de les écrire.",
+      "second": "Parfois, il faut lire entre les lignes.",
+      "third": "J'ai l'impression qu'il y a des informations additionnelles cachées quelque part...",
+      "fourth": "Ajoutez les vues et les téléchargements pour toutes les versions."
+    },
+    "solutions": {
+      "first": "Entrez le chiffre 2 (2 stylos au total sur la table).",
+      "second": "Entrez le chiffre 1 (Premières lettres en gras de : O-bservation N-écessaire E-videmment = ONE).",
+      "third": "Cliquez sur l'écran sur \"See more details\" pour voir les informations additionnelles.",
+      "fourth": "Entrez le chiffre 1323 (1169 + 154 = 1323)."
+    }
+  },
+  "click": {
+    "one": "Cliquez pour ouvrir l'explorateur de fichiers",
+    "two": "Cliquez pour ouvrir le dossier",
+    "three": "On dirait que vous avez le bon accès...",
+    "four": "Est-ce que vous avez trouvé un poste-it ?",
+    "five": "Cliquez pour voir le post-it de plus près",
+    "six": "Cela pourrait être une date intéressante",
+    "seven": "Cliquez pour ouvrir le message",
+    "eight": "Cliquez pour voir la note de plus près",
+    "nine": "Cliquez ici pour ouvrir"
+  },
+  "endScreen": {
+    "congratulations": "Félicitations !!",
+    "congratulationsMessage": "Félicitations !! Vous avez relevé avec succès votre mission et complété votre feuille de route. Elle sera votre guide tout au long de votre propre projet. Vous avez fait du bon travail et vous pouvez enfin vous mettre en mode vacances ! Vous serez en forme en janvier, prêt à vous attaquer à votre projet de recherche et à assurer une bonne gestion de vos données.",
+    "roadmapTitle": "Votre Feuille de Route de Recherche",
+    "roadmapDescription": "Cette feuille de route sera votre guide tout au long de votre propre projet.",
+    "contactTitle": "Contact et Commentaires",
+    "nameLabel": "Votre Nom",
+    "namePlaceholder": "Entrez votre nom complet",
+    "emailLabel": "Adresse Email",
+    "emailPlaceholder": "Entrez votre adresse email",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Partagez vos commentaires, questions ou suggestions...",
+    "sendMessage": "Envoyer le Message",
+    "sending": "Envoi en cours...",
+    "messageSent": "Message est en cours de traitement...",
+    "messageError": "Désolé, une erreur s'est produite lors de l'envoi. Veuillez réessayer.",
+    "theoryTitle": "Guide théorique complémentaire",
+    "theoryDescription": "Téléchargez notre guide complémentaire qui reprend toute la théorie présentée dans ce jeu ou accédez aux sources et documents de la version originale.",
+    "viewPDF": "Voir le guide complémentaire",
+    "openLink": "Voir le jeu original",
+    "optional": "RECOMMANDÉ",
+    "testGameTitle": "Défi de Connaissances",
+    "testGameDescription": "Testez votre compréhension avec 6 questions sur ce que vous avez appris.",
+    "challenge": "Défi",
+    "quickTest": "15 min",
+    "startTest": "Commencer le Défi",
+    "testGameNote": "C'est complètement optionnel mais fortement recommandé pour renforcer votre apprentissage !",
+    "backToMenu": "Retour au Menu Principal",
+    "EndMsg": "Ce jeu est basé sur<a href='https://doi.org/10.5281/zenodo.6391188' target='_blank' rel='noopener'> le jeu d'évasion pédagogique éponyme</a> créé par <a href='https://orcid.org/0000-0001-8197-4613' target='_blank' rel='noopener'>Myriam Jouhar</a>, <a href='https://orcid.org/0000-0002-4833-5219' target='_blank' rel='noopener'>Alexia Cavin-Trombert</a> et <a href='https://orcid.org/0000-0003-2250-9070' target='_blank' rel='noopener'>Pauline Melly</a> dans le cadre d'un projet de recherche du Master en Sciences de l'information à la Haute école de gestion de Genève en 2021. Cette version numérique a été créée par Johanna Summermatter dans le cadre d'un mémoire de Bachelor en informatique de gestion en 2025 à la HES-SO Valais-Wallis sur mandat des créatrices du jeu.",
+    "EndMsg2": "Merci d'avoir joué !"
+  },
+  "emergencyGame": {
+    "title": "URGENT : EMAIL du 23.12 à 17:45 DU FONDS NATIONAL SUISSE",
+    "subtitle": "TEST DES COMPETENCES GDR",
+    "description": "Cliquez sur les objets pour tester vos compétences. Si besoin, aidez-vous du <a href='https://hevs.allinone.io/media/document/22/mission-gdr-2024-guide-complementaire.pdf' target='_blank' rel='noopener'>guide complémentaire.</a>",
+    "introduction": {
+      "message": "Rappel : N'oubliez pas d'envoyer votre dépôt de projet préliminaire avant le 1e janvier.\n\nPour obtenir un délai supplémentaire, merci de nous transmettre une preuve de vos compétences en gestion des données de recherche.",
+      "context": "Vous entendez les clés du garde de sécurité tinter dans le couloir. Le bâtiment ferme à 18h00 précises. Vous devez vraiment partir avant cette heure-là et avec tous les repas de fêtes prévus la semaine prochaine il ne vous sera pas possible de déposer votre projet préliminaire dans ce délai.",
+      "urgency": "Heureusement, vous avez maintenant complété votre checklist et reçu les conseils de Santiago, Inès et Jack.",
+      "security": "Faites le test pour démontrer vos nouvelles compétences en gestion des données et obtenir le délai supplémentaire.",
+      "return": "Ne pas faire le test maintenant (retour page de fin)",
+      "handleMyself": "Réaliser le test"
+    },
+    "timer": {
+      "timeRemaining": "Temps Restant"
+    },
+    "quizzes": {
+      "computer": {
+        "title": "Crise de sauvegarde des données",
+        "question": "Vous avez travaillé sur votre analyse de données la semaine dernière dans le train. Votre fichier est stocké sur votre ordinateur portable personnel. Par sécurité, vous avez également fait une sauvegarde sur votre clé USB. \n\nMalheureusement, en quittant le train, vous avez oublié votre sac à dos (avec votre ordinateur portable et votre clé USB) dans le train. Après une semaine, il n'a toujours pas été retrouvé, ce qui signifie que vous devrez recommencer la phase de collecte de données de votre projet. \n\nSelon la règle 3-2-1-1-0, qu'auriez-vous dû faire pour minimiser le risque de perte de vos données ?",
+        "options": [
+          "Toujours avoir au moins deux clés USB différentes",
+          "Sauvegarder une copie des données sur le serveur réseau de votre institution qui est sauvegardé quotidiennement",
+          "Toujours avoir au moins 2 copies en ligne",
+          "Sauvegarder une copie des données sur Dropbox"
+        ]
+      },
+      "books": {
+        "title": "Versions de nettoyage des données",
+        "question": "Nettoyage des données terminé, quelle version utiliser ? \n\nVERSION A : hotel_cleaned_quick.csv\n- 347 cellules vides remplies avec \"0\" \n- 89 doublons supprimés \n- Fichier original écrasé (économiser l'espace de stockage)\n- Prêt pour l'analyse\n\nVERSION B : hotel_cleaned_documented.csv\n- 347 cellules vides marquées comme \"NA\"\n- 89 doublons supprimés\n- Données brutes sauvegardées séparément comme \"hotel_raw_backup.csv\"\n- Toutes les étapes documentées dans \"cleaning_protocol.txt\"\n- Prêt pour l'analyse\n\nVERSION C : hotel_cleaned_fast.csv\n- Toutes les lignes avec cellules vides complètement supprimées (521 hôtels perdus !)\n- Données très propres\n- Traitement rapide possible\n- Original supprimé",
+        "options": [
+          "Version A : hotel_cleaned_quick.csv",
+          "Version B : hotel_cleaned_documented.csv",
+          "Version C : hotel_cleaned_fast.csv"
+        ]
+      },
+      "cabinet": {
+        "title": "Chaos de nommage des fichiers",
+        "question": "Au secours ! \n\nLe dossier de projet contient ces fichiers mélangés :\n\n- hotel data 2024-03-15 v1.csv\n- HOTEL-ANALYSIS_FINAL!!!.xlsx\n- hotel_survey_20240315_AG_v01.csv\n- Final Results (copy).pdf\n- hotel_data_FINAL_FINAL.xlsx\n\nL'équipe est complètement perdue :\n- Personne ne sait quel fichier est actuel\n- Des espaces et caractères spéciaux partout\n- Aucun versionnage cohérent\n- Date parfois présente, parfois absente\n\nQuel fichier respecte le mieux les conventions de nommage recommandées ?",
+        "options": [
+          "hotel data 2024-03-15 v1.csv",
+          "HOTEL-ANALYSIS_FINAL!!!.xlsx",
+          "hotel_survey_20240315_AG_v01.csv",
+          "Final Results (copy).pdf",
+          "hotel_data_FINAL_FINAL.xlsx"
+        ]
+      },
+      "mouse": {
+        "title": "Ordre du cycle de vie RDM",
+        "question": "Chaos ! La feuille de route RDM est complètement mélangée !\n\nVotre collègue a laissé 6 Post-its, mais le vent les a fait s'envoler de l'écran :\n\n🟡(1) \"Traitement et analyse des données\"\n🟢(2) \"Conception et planification du projet\"\n🔵(3) \"Collecte/création des données\"\n🟠(4) \"Réutilisation des données\"\n🟣(5) \"Préservation et archivage des données\"\n🔴(6) \"Partage des données\"\n\nSelon le cycle de vie RDM : Dans quel ordre ces 6 phases doivent-elles être exécutées ?",
+        "options": [
+          "🟢 - 🔵 - 🟡 - 🟣 - 🔴 - 🟠",
+          "🟡 - 🟢 - 🔵 - 🟣 - 🔴 - 🟠",
+          "🟢 - 🔵 - 🟡 - 🔴 - 🟣 - 🟠",
+          "🔵 - 🟢 - 🟡 - 🟣 - 🔴 - 🟠"
+        ],
+        "sequenceHint": {
+          "title": "🔐 SÉQUENCE DE DÉVERROUILLAGE RÉVÉLÉE :",
+          "subtitle": "Les couleurs des Post-its montrent l'ordre final de déverrouillage :",
+          "steps": [
+            "1er : 🟢 Planification",
+            "2e : 🔵 Collecte",
+            "3e : 🟡 Analyse",
+            "4e : 🟣 Archivage",
+            "5e : 🔴 Partage",
+            "6e : 🟠 Réutilisation"
+          ]
+        }
+      },
+      "server": {
+        "title": "Sélection d'entrepôt",
+        "question": "Vous cherchez un entrepôt pour partager vos données. Parmi les critères ci-dessous, lequel n'utiliserez-vous PAS pour guider votre choix ?",
+        "options": [
+          "La possibilité de choisir les conditions d'accès aux données",
+          "L'attribution d'un identifiant unique (DOI)",
+          "La possibilité de choisir une licence de réutilisation",
+          "La possibilité d'utiliser plusieurs formats de fichiers ouverts",
+          "Une politique claire de préservation à long terme",
+          "La beauté de l'interface"
+        ]
+      },
+      "phone": {
+        "title": "Documentation des données",
+        "question": "Plusieurs fichiers peuvent être utilisés pour documenter votre projet de recherche. Parmi les options suivantes, laquelle n'est PAS directement liée à la documentation des données ?",
+        "options": [
+          "Fichier README",
+          "Plan de gestion des données (PGD)",
+          "Livre de codes",
+          "Protocole de recherche",
+          "Diapositives présentées lors d'un colloque"
+        ]
+      }
+    },
+    "modal": {
+      "completed": "✓ TERMINÉ - Mode Révision",
+      "correctAnswer": "Réponse Correcte :",
+      "close": "Fermer",
+      "submit": "Soumettre"
+    },
+    "success": {
+      "title": "Délai supplémentaire accordé !",
+      "message": "Félicitations ! Vous avez démontré avec succès vos compétences en gestion des données et sauvé vos vacances. Vous pourrez déposer votre projet le 30 janvier.",
+      "continue": "Retour à la page de fin"
+    },
+    "errors": {
+      "incorrectAnswer": "Réponse incorrecte. Veuillez réessayer."
+    }
+  }
+}

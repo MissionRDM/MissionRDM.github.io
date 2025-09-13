@@ -1,0 +1,469 @@
+{
+  "startScreen": {
+    "title": "WELCOME TO YOUR MISSION RDM",
+    "subtitle": "A serious game to learn about RDM (Research Data Management). Good luck!",
+    "enterName": "Enter your name:",
+    "namePlaceholder": "Your name",
+    "startGame": "Start Game",
+    "tutorial": "Tutorial",
+    "nameError": "Your name can only contain letters and numbers."
+  },
+  "intro": {
+    "text": "You are part of a junior research team in a Swiss tourism institute and are planning a research project about the hotel industry in Switzerland. \n\nYour experienced colleague and her team have already conducted their own study on the subject. Unlike her, you are not well informed about the requirements for optimal data management, as you were unable to attend your library's research data management training course. \n\nYour colleague Anne will be leaving for a trip to the Amazon this afternoon. Just before she leaves, she quickly drafts a roadmap with the major steps needed to complete your project and ensure proper management of your research data. As her plane is about to take off, she doesn't have time to finalize it and suggests that you go to her office, where you should find all the information you need to complete the list she has started, provided you go through her things and those of her team. \n\nLuckily, you can also count on Santiago, the information specialist of the institute's library, Inès, an IT specialist and Jack, the institute's legal expert, who will help you during your mission. \n\nBut beware, there is only an hour left before the building closes for the end-of-year holidays! You will have to get out before then if you don't want to stay locked in...",
+    "continue": "Continue"
+  },
+  "congrats": {
+    "title": "Congratulations!",
+    "subtitle": "Level {level} Completed!",
+    "achievement": "You've unlocked a badge!",
+    "message": "You've successfully completed all objectives for this level!",
+    "continue": "Continue",
+    "timeMessage": "You took {time} for level {level}.",
+    "averageMessage": " The average for this level is {avgTime}.",
+    "fastMessage": " Excellent! You solved it with great focus!",
+    "thoroughMessage": " Well done! Taking your time to solve puzzles thoroughly is great!",
+    "noDataMessage": " Fantastic work completing the level!"
+  },
+  "timer": {
+    "penaltyWarning": "Time Penalty Warning",
+    "hintPenaltyWarning": "Using a hint will add 30 seconds to your timer. Are you sure you want to continue?",
+    "solutionPenaltyWarning": "Viewing the solution will add 60 seconds to your timer. Are you sure you want to continue?",
+    "acceptPenalty": "Accept Penalty",
+    "cancel": "Cancel"
+  },
+  "phone": {
+    "help": "HELP",
+    "close": "Close",
+    "solution": "SOLUTION",
+    "placeholder": "Code",
+    "delete": "⌫",
+    "enter": "Enter",
+    "callUnavailable": "I can't talk right now. Try calling me later.",
+    "call1": "Hey {playerName}! You need some help with the naming conventions? Here are some naming conventions that might help you:\n\n→ Choose a short and meaningful file name: max 32 characters, start with the most important element and use pre-defined acronyms to limit the number of characters.\n\n→ The file name must contain the subject, date, and version. Avoid special characters, punctuation, and accents.\n\n→ Avoid spaces between words; use underscores and capital letters. Use standard date formats like YYYYMMDD or YYYY-MM-DD.\n\n→ Include a pre-defined version control indicator like V05 or _final for the final version. \n\nGood luck and call me again if you need help!",
+    "call2": "Hey {playerName}! Let me walk you through this over the phone. To clean data you should eliminate unnecessary fields and facilitate data analysis by ensuring standardization.\n\nFor this several software can be used. It depends on the type of data, the quantity, the resources available and the team's experience. Some example for some free tools are: OpenRefine or R\n\nHow to clean up data?\n\n→ Identify essential data (e.g., delete unnecessary fields that were automatically added by the data collection software)\n→ Identify and eliminate duplicated data\n→ Resolve empty values\n→ Ensure data uniformity (data of the same type should have the same form)\n\nImportant: always keep a raw version of your file, and keep track of all cleaning steps to ensure transparency and reproducibility! \n\nAdd the correct file to the analysis software. \n\nGood luck and call me back if you need help!",
+    "call3": "Hi {playerName}! I can help you with some information about format types. An open format is a file that can be read by multiple software. Using open formats serves two main objectives: \n\n→ Ensuring access to your documents regardless of the software used by other people \n→ Ensuring the longevity of your documents so that they remain accessible even if the software used to create them is not available or no longer exists\n\nI will send you an email with additional information about different format types and file formats extensions. This will help you. See you!",
+    "call4": "Hello {playerName},\n\nDuring a research project, a great quantity of data is created, and it is not possible to archive/preserve all of it for several reasons: \n\n→ Cost related to archiving \n→ The greater the volume of archived data, the more complicated it is to discover \n→ Cost of creating and maintaining metadata \n\nTherefore, there is a need to 4.2 Identify data value and determine data preservation \n\nYou may be wondering how to evaluate and select which data should be archived? It depends on many criteria. I will send you the file explaining all details. \n\nGood luck and call me back if you need help!",
+    "call5": "Hey {playerName}, \n\nI am calling to give you some more information. \n\nIt is essential to 4.3 add appropriate metadata to the stored data to ensure its findability. Metadata is usually described as \"data about data\". \n\nThere are several types of metadata: \n→ Descriptive metadata: title, subject, data creators... \n→ Administrative metadata: file formats, versions, re-use options... \n→ Structural metadata: relationships with other entities, list of variables...\n\nI will send you an example which is the metadata of your colleagues' project in XML format. Call me back as soon as you got it",
+    "call6": "Thanks for calling back {playerName}, \n\nUnlike data documentation - which is intended to be interpretable by humans only - metadata must be machine-readable to make it discoverable online. Metadata is therefore often converted in XML. \n\nThere are tools that can help teams to write their metadata in XML, such as the Datacite Metadata Generator. \n\nMetadata is standardized information. There are many patterns, both disciplinary and generic. \n\nAlright, hope that cleared things up! I’ve gotta dash, christmas shopping won’t do itself. \n\nOh, and before I forget, add up all the numbers ONLY of the years indication to continue, catch you later!",
+    "call7": "Hello {playerName}, \n\nYeah, I remember they indeed hesitated about several repositories…\n\nLet me think…\n\n… I remember, in the end, the research team chose a repository that is free and whose servers are all located in Switzerland. Open the comparison of the three repositories to find the correct answer. \n\nAdd 70 to the number (#) of the chosen repository. \n\nGood luck!",
+    "call8": "Jack speaking. \n\nAh, yes {playerName}, the Creative Commons and copyright discussion. I remember…\n\nSo first, let me help with some words. Creative Commons licenses are distribution licenses that allow certain rights of use to be granted in advance on published materials. They are complementary to the author's copyright. \n\nI’ll send over a little overview with the licensing options. It’s got icons, legal phrasing, and all that good stuff. \n\nYou’ll know which one fits when you see it.\n\nGood luck!",
+    "call9": "Hey {playerName}, I heard you need some help with identifiers, right? Let me help you\n\nThere are two main types of identifiers: \n→ Object identifiers for publications and data\n→ Contributor identifiers for authors and organizations \n\nHere are some examples of identifiers:\n → Handle 20.1000/100\n → DOI doi:10.1000/182\n → ORCID 0000-0002-1825-0097\n → ArXiv author ID arXiv:0706.0001\n\nFor example, Handle and DOI are digital objects identifiers, while ORCID and ArXiv author ID are contributor identifiers.\n\nGood luck!",
+    "hoverCall": "Call",
+    "codeAlreadyFound": "Already found!",
+    "codeFound": "Correct code!",
+    "invalidCode": "Wrong code!",
+    "messageBodylvl1": "Hello {playerName}, \n\nThe DMP or Data Management Plan is a document drafted in the preliminary phase of a research project and completed as the project progresses. \n\nIt helps organize and anticipate all the stages of the data lifecycle. It explains how the project's data is managed, from creation to sharing and archiving. \n\nThe different steps you will discover in the course of your investigations will help you understand how to properly complete each section of the DMP. \n\nGood luck!",
+    "messageBodylvl2": "Hey {playerName}, \n\nOne of our colleagues recorded several versions of the data collected through the questionnaire during the cleaning process. I will send them to you right now. Can you please analyze them? Out of the three, which one is the cleanest ? Which option are we able to add to the analysis software? \n\nWait let me call you it will be easier to explain.",
+    "messageBodylvl3": "Hello {playerName}, \n\nIn short, when research teams get ready to archive their data, they should make sure to choose formats that are: \n\n→ open \n→ non-encrypted \n→ uncompressed \n→ used and recognized in their field \n→ interoperable \n\nI hope this helped you! See you soon!",
+    "messageBodylvl4": "Hi {playerName}, \n\nI just boarded my plane! Can't wait to get there *.* But I forgot to warn you: for information on data sharing, check Rachel's computer, it should be in her office (number 47). Have a great holiday! P.S: Don't forget to go home before the building closes ;)",
+    "incomingCall": "Incoming Call",
+    "outgoingCallRequired": "Call Required",
+    "answerCall": "Tap to answer the call",
+    "makeCall": "Tap to make the call",
+    "placeholderIncoming": "Answer call",
+    "placeholderOutgoing": "Make call",
+    "answerFirst": "Answer Call First",
+    "callFirst": "Make Call First",
+    "mustCallFirst": "You must handle the pending call first!",
+    "endCall": "End Call",
+    "media": "Mobile",
+    "connection": "Connected"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "entries": "No entries yet...",
+    "complete": "Completed",
+    "step1": "Step 1: Project design and planning",
+    "step1_1": "1.1 Writing the DMP",
+    "step1_1_A": "A. Administrative information",
+    "step1_1_B": "B. Data collection",
+    "step1_1_C": "C. Documentation and metadata",
+    "step1_1_D": "D. Ethics and legal compliance",
+    "step1_1_E": "E. Storage and backup strategies",
+    "step1_1_F": "F. Selection and conservation",
+    "step1_1_G": "G. Data sharing",
+    "step1_1_H": "H. Responsibilities and resources",
+    "step1_2": "1.2 File structure and naming conventions",
+    "step1_3": "1.3 Reflect on the data produced or reused ",
+    "step1_4": "1.4 Consider legal and ethical aspects",
+    "step1_5": "1.5 Analyze sotrage cost",
+    "step2": "Step 2: Data collection/creation",
+    "step2_1": "2.1 Backup and storage strategies",
+    "step2_2": "2.2 Collect/obtain data",
+    "step2_3": "2.3 Document your project",
+    "step3": "Step 3: Data processing and analysis",
+    "step3_1": "3.1 Data Cleaning",
+    "step3_2": "3.2 Data analysis",
+    "step3_3": "3.3 Data visualization",
+    "step4": "Step 4: Data preservation and archiving",
+    "step4_1": "4.1 Use an open file format",
+    "step4_2": "4.2 Identify data value and determine data preservation",
+    "step4_3": "4.3 add appropriate metadata",
+    "step4_4": "4.4 Anonymize data (if necessary)",
+    "step5": "Step 5: Data sharing",
+    "step5_1": "5.1 select a data repository",
+    "step5_2": "5.2 Determine access conditions",
+    "step5_3": "5.3 Choose a persistent identifier",
+    "step5_4": "5.4 Assign a copyright reuse license",
+    "step6": "Step 6: Data reuse",
+    "step6_1": "6.1 Evaluate data access and reuse",
+    "step6_2": "6.2 Prepare dataset citation"
+  },
+  "tutorial": {
+    "title": "Tutorial",
+    "subtitle": "In this game, you will discover the basics of research data management (RDM) through a series of challenges. Your mission: complete your roadmap to obtain a simple step-by-step guide on research data management.",
+    "instructions": "Carefully observe your environment, spot the numbers, clickable elements and clues that will allow you to progress in the game in order to identify the data management tasks that will complete your roadmap.",
+    "step1": "Your phone will allow you to enter the numbers found and ask for help.",
+    "step2": "A team of three specialists will accompany you on your quest: Santiago, the institute's library information specialist, Inès, an IT specialist, and Jack, the institute's legal expert.",
+    "step3": "By clicking on the roadmap, you will see the data lifecycle steps already completed.",
+    "step4": "You are now ready to take on the challenge of Mission RDM! Let's play!",
+    "backToStart": "Back"
+  },
+  "riddle": {
+    "submit": "Submit"
+  },
+  "riddle1": {
+    "title1": "1.1 Writing the DMP",
+    "question1": "Try solving this riddle to find the first steps of the roadmap. Use what you see here to find the answer. \n\nEnter in each input field one of the steps of the DMP that you can see in the image. You do not need to use 1.1., B., C., E., F. and G. in your answers.\n\nGood luck!",
+    "placeholder1": "Enter your answer ",
+    "placeholder2_1": "1.1.",
+    "placeholder2_2": "B.",
+    "placeholder2_3": "C.",
+    "placeholder2_4": "E.",
+    "placeholder2_5": "F.",
+    "placeholder2_6": "G.",
+    "correctAnswers1": [
+      "Writing the DMP",
+      "Data collection",
+      "Documentation and metadata",
+      "Storage and backup strategies",
+      "Selection and conservation",
+      "Data sharing"
+    ],
+    "correct1": "Correct, well done!",
+    "incorrect1": "Incorrect, try again! You do not need to use 1.1., B., C., E., F. and G. in your answers."
+  },
+  "riddle2": {
+    "title": "Error",
+    "incorrect77": "Incorrect, this file does not use the best naming practices. It is not recommanded to use punctuation in file names. Try again!",
+    "incorrect82": "Incorrect, this file does not use the best naming practices. There is a better way to indicate the versions of a file. Try again!",
+    "incorrect25": "Incorrect, this file does not use the best naming practices. You should avoid using special characters and spaces between words. Try again!"
+  },
+  "riddle3": {
+    "title": "Error",
+    "incorrect76": "Incorrect, this file does not correspond to the best version of cleaned data. The data is completely mixed up, some cells are empty without explanation and there are some duplicated data.",
+    "incorrect78": "Incorrect, this file does not correspond to the best version of cleaned data. The data is not standardized, some cells are empty without explanation and there are some duplicated data."
+  },
+  "riddle4": {
+    "title": "Error",
+    "incorrect": "Wrong answer, try again!"
+  },
+  "riddle5": {
+    "title": "Error",
+    "incorrect93": "Wrong answer! In this case, the scientific article and the data itself must both be accessible. The research team wished to follow the good practices of Open Access. Try again!",
+    "incorrect94": "Wrong answer! In this case, the research team did not make the data available only on request because it does not follow the good practices of Open Access. Try again!",
+    "incorrect95": "Wrong answer! In this case, the data is not protected by an embargo. Embargoes are typically used when a publication comes out before the underlying data is shared. This can be the case when the data is linked to commercial uses, such as a patent for example. Try again!"
+  },
+  "riddle6": {
+    "title": "Error",
+    "incorrect": "Wrong answer, try again!"
+  },
+  "hints": {
+    "checkRoadmap": "Check your roadmap"
+  },
+  "level1": {
+    "hints": {
+      "first": "Need a little break? A coffee could help.",
+      "second": "Count the post-it notes on the desk.",
+      "third": "Take a look at the date the DMP is due.",
+      "fourth": "It's a coded message! The hint is written directly where you enter the solution. Use the title as decoding key. Enter again the code 29 and try to decipher it.",
+      "fifth": "Have you checked the file explorer? maybe try to open it.",
+      "sixth": "One of the folder seems particularly interesting.",
+      "seventh": "Which file best respects the naming rules? Call Santiago to get some help.",
+      "eigth": "You’ve organized your project structure... now just make sure the right access is granted to continue."
+    },
+    "solutions": {
+      "first": "Enter number 8 (in the coffee cup).",
+      "second": "There are 4 large post-it notes on the desk -> Enter number 4.",
+      "third": "Enter number 29 (in notebook).",
+      "fourth": "Enter number 29 again and solve it with this solution:\nWriting the DMP \ndata collection\ndocumentation and metadata\nstorage and backup strategies\nselection and conservation \ndata sharing",
+      "fifth": "Click on the file explorer icon on the screen to open it.",
+      "sixth": "Click on the folder \"Folder_Click_Old-Versions\" to open it.",
+      "seventh": "OFS_Continental_20200628_V01.png -> Enter number 28.",
+      "eigth": "Click on the folder \"Access_Granted\" to get to the next level."
+    }
+  },
+  "level2": {
+    "hints": {
+      "first": "Keys can help you open doors.",
+      "second": "A little bit of math will certainly be necessary.",
+      "third": "Take a look at the names of the sheets, what could this file contain... ... + this one?",
+      "fourth": "Sometimes examples are the best way to understand.",
+      "fifth": "The reception desk is a good place to start.",
+      "sixth": "A little bit of math will certainly be necessary.",
+      "seventh": "Isn't there something behind the plant?",
+      "eighth": "You'll have to walk a bit."
+    },
+    "solutions": {
+      "first": "Enter number 9 (in the key box).",
+      "second": "Enter number 15 (Backup number: 7.5 x 2).",
+      "third": "Enter number 31 (Addition both sheet names -> 15 + 16).",
+      "fourth": "Enter number 1 (examp1e.odt).",
+      "fifth": "Enter number 36 (R36CEPTION on the reception desk).",
+      "sixth": "Enter number 7 (3 + 2 + 1 + 1 + 0 = 7).",
+      "seventh": "Click on the post-it note behind the plant to read it.",
+      "eighth": "Enter number 11 (11th floor)."
+    }
+  },
+  "level3": {
+    "hints": {
+      "first": "You may find the books interesting.",
+      "second": "The chapter from the book looks interesting.",
+      "third": "Have you anything planned for the month?",
+      "fourth": "Sometimes we have to be a little patient with the technology.",
+      "fifth": "Have you opened all the files that Inès sent you?",
+      "sixth": "It looks like you have to + a file to start the analysis",
+      "seventh": "Which brand of computer do you prefer?",
+      "eighth": "The infographic shows the number of hotels listed.",
+      "ninth": "Did you notice the corkboard behind your colleague's desk?",
+      "tenth": "Get in touch with the IT department."
+    },
+    "solutions": {
+      "first": "Enter number 17 (the title of the book im roman numbers).",
+      "second": "Enter number 33 (the chapter number in the book).",
+      "third": "Click on the 19th of the month in the calendar to continue.",
+      "fourth": "Be patient, sometimes technology takes a little longer to load. It will automatically load in a few seconds.",
+      "fifth": "Enter numbers 57, 58 and 59 (the three files Inès sent you).",
+      "sixth": "Enter number 77 (the correct file (58) + the number of the pc (19)).",
+      "seventh": "Enter number 22 (\"brand of computer\" on the desk).",
+      "eighth": "Enter number 64 (the number is written in bold on the infographic).",
+      "ninth": "Click on the post-it note on the corkboard to read it.",
+      "tenth": "Enter number 99 (the phone number of the IT department on the post-it)."
+    }
+  },
+  "level4": {
+    "hints": {
+      "first": "The screens might be useful.",
+      "second": "Call Inès to get some help.",
+      "third": "Inès sent you some files, have you checked them?",
+      "fourth": "Inès sent you some files, have you checked them?",
+      "fifth": "Find all the numbers in the \"acceptable formats\" column and add them up.",
+      "sixth": "A logo can sometimes contain useful information.",
+      "seventh": "Call Santiago to get some help.",
+      "eighth": "Santiago sent you an email, have you checked it?",
+      "ninth": "Some letters are highlighted, what could they mean?",
+      "tenth": "Santiago sent you an email, have you checked it?",
+      "eleventh": "Call back Santiago to get some information.",
+      "twelfth": "Santiago gave you a hint during the call, have you checked it? (hint: 2020 = 2 + 0 + 2 + 0 = 4)",
+      "thirteenth": "Anne sent you in the message the number of the office where you can find Rachel's computer. To read the message again, enter the number 99."
+    },
+    "solutions": {
+      "first": "Click on the folder explorer icon on the screen to open it.",
+      "second": "Click on the icon to call Inès and get some help.",
+      "third": "Enter number 4 (FORM4T).",
+      "fourth": "Enter number 51 (EXTEN51ONS).",
+      "fifth": "Enter number 23 (5 + 4 + 2 + 3 + 3 + 3 + 3 = 23).",
+      "sixth": "Enter number 81 (side of the desk).",
+      "seventh": "Click on the icon to call Santiago and get some help.",
+      "eighth": "Enter number 1 (ONE NEW MESSAGE).",
+      "ninth": "Enter number 61 (read the highlighted letters to find the number sixty-one).",
+      "tenth": "Click on the message icon to read the email from Santiago.",
+      "eleventh": "Click on the icon to call Santiago and get some information.",
+      "twelfth": "Enter number 17 (added all numbers of the years).",
+      "thirteenth": "Enter number 47 (the office number where you can find Rachel's computer)."
+    }
+  },
+  "level5": {
+    "hints": {
+      "first": "Not all numbers hide in files some live in names.",
+      "second": "History is engraved on the screen.", 
+      "third": "Call Santiago to get some help.",
+      "fourth": "Santiago said how the research team chose the repository, have you checked it?",
+      "fifth": "Jack sent you an email, have you checked it?",
+      "sixth": "Jack said how the research team chose the access conditions, have you checked it?",
+      "seventh": "Call Jack to get some help.",
+      "eighth": "Jack sent you an email, have you read the attached pdf file?",
+      "ninth": "Which of the copyright reuse licenses is the best fit for the needs of the research team?",
+      "tenth": "Call Inès to get some help.",
+      "eleventh": "Which identifier matches that of a dataset? Inès explained it to you during the call. Call her back if you need more information.",
+      "twelfth": "Is it Rachel that wrote on the tablet? It looks interesting..."
+    },
+    "solutions": {
+      "first": "Enter number 3 (re3data.org on the screen).",
+      "second": "Enter number 19 (CHICAGO COVID-19 RESPONSE on the screen).",
+      "third": "Call Santiago to get some help.",
+      "fourth": "Enter number 71 (only repository with servers in Switzerland and free of charge).",
+      "fifth": "Click on Jack's message to read the email.",
+      "sixth": "Enter number 96 (data is freely available and can be accessed by anyone).",
+      "seventh": "Call Jack to get some help.",
+      "eighth": "Enter number 8 (CopyEIGHT.pdf instead of copyright).",
+      "ninth": "Enter number 6 (this one makes data reuse possible on the condition that they get credited for their work).",
+      "tenth": "Call Inès to get some help.",
+      "eleventh": "Enter number 84 (DOI is correct).",
+      "twelfth": "Click on the tablet to continue to the next level."
+    }
+  },
+  "level6": {
+    "hints": {
+      "first": "To memorize things, sometimes it is useful to write them down.",
+      "second": "Sometimes you have to read between the lines.",
+      "third": "I have a feeling there's additional information hiding somewhere...",
+      "fourth": "Add the views and downloads for all versions"
+    },
+    "solutions": {
+      "first": "Enter number 2 (2 pens in total on the table).",
+      "second": "Enter number 1 (First, bold letters of: O-nly N-erds E-xamine = ONE).",
+      "third": "Click on the screen on \"See more details\" to see the additional information.",
+      "fourth": "Enter number 1323 (1169 + 154 = 1323)."
+    }
+  },
+  "click": {
+    "one": "Click to open the folder explorer",
+    "two": "Click to open the folder",
+    "three": "Looks like you’ve got the right access...",
+    "four": "Is this a post-it note?",
+    "five": "Click to zoom and view the post-it note",
+    "six": "This could be an interesting date",
+    "seven": "Click to open the message",
+    "eight": "Click to zoom and view the note",
+    "nine": "Click to open"
+  },
+  "endScreen": {
+    "congratulations": "Congratulations!!",
+    "congratulationsMessage": "Congratulations! You have successfully completed your mission and your roadmap. It will be your guide throughout your own project. You've done a great job, and you can finally get into vacation mode yourself! You will be back in shape in January, ready to tackle your research project and ensure good management of your data.",
+    "roadmapTitle": "Your Research Roadmap",
+    "roadmapDescription": "This roadmap will guide you through your upcoming research project:",
+    "contactTitle": "Contact & Feedback",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "Enter your full name",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email address",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Share your feedback, questions, or suggestions...",
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "messageSent": "Message is processed...",
+    "messageError": "Sorry, there was an error sending your message. Please try again.",
+    "theoryTitle": "Supplementary theoretical guide",
+    "theoryDescription": "Download our complementary guide, which covers all the theory presented in this game, or access the sources and documents for the original version.",
+    "viewPDF": "See the complementary guide",
+    "openLink": "See the original game",
+    "optional": "RECOMMENDED",
+    "testGameTitle": "Knowledge Challenge",
+    "testGameDescription": "Test your understanding with 6 questions about what you've learned.",
+    "challenge": "Challenge",
+    "quickTest": "15 min",
+    "startTest": "Start Challenge",
+    "testGameNote": "This is completely optional but highly recommended to reinforce your learning!",
+    "backToMenu": "Back to Main Menu",
+    "EndMsg": "This game is based on<a href='https://doi.org/10.5281/zenodo.7985732' target='_blank' rel='noopener'> the eponymous educational escape game</a> created by <a href='https://orcid.org/0000-0001-8197-4613' target='_blank' rel='noopener'>Myriam Jouhar</a>, <a href='https://orcid.org/0000-0002-4833-5219' target='_blank' rel='noopener'>Alexia Cavin-Trombert</a> and <a href='https://orcid.org/0000-0003-2250-9070' target='_blank' rel='noopener'>Pauline Melly</a> as part of a research project for the Master's in Information Sciences at the Geneva School of Business Administration in 2021. This digital version was created by Johanna Summermatter as part of a Bachelor's thesis in Business Information Technology in 2025 at HES-SO Valais-Wallis on behalf of the game's creators.",
+    "EndMsg2": "Thank you for playing!"
+  },
+  "emergencyGame": {
+    "title": "URGENT: EMAIL dated 23.12 at 17:45 from the Swiss National Science Foundation",
+    "subtitle": "RDM SKILLS TEST",
+    "description": "Click on the objects to test your skills. If you need help, use the <a href='https://hevs.allinone.io/media/document/22/mission-rdm-2024-complementary-guide.pdf' target='_blank' rel='noopener'>complementary guide</a>.",
+    "introduction": {
+      "message": "Reminder: Don't forget to send in your preliminary project submission before January 1st.\n\nTo obtain a deadline extension, please send us proof of your research data management skills.",
+      "context": "You hear the security guard's keys jingling down the hallway. The building locks at 18:00 sharp. You really need to leave before then, and with all the holiday meals planned for next week, it won't be possible to submit your preliminary project on time.",
+      "urgency": "Fortunately, you have now completed your checklist and received guidance from Santiago, Inès, and Jack.",
+      "security": "Take the test to demonstrate your new data management skills and obtain the extension.",
+      "return": "Do not perform the test now (return to end page)",
+      "handleMyself": "Perform the test"
+    },
+    "timer": {
+      "timeRemaining": "Time Remaining"
+    },
+    "quizzes": {
+      "computer": {
+        "title": "Data Backup Crisis",
+        "question": "You worked on your data analysis last week on the train. Your file is stored in your personal laptop. To be safe, you also made a backup on your USB stick. \n\nSadly, when you left the train, you forgot your backpack (with your laptop and USB stick) on the train. After a week, it still hasn't been found and this means that you will have to start the data collection phase of your project again. \n\nAccording to the 3 2 1 1 0 rule, what should you have done to minimize the risk of losing your data?",
+        "options": [
+          "Always at least two different USB sticks",
+          "Save a copy of the data on your institutional network server which is backed up daily",
+          "Always at least 2 online copies",
+          "Save a copy of the data on Dropbox"
+        ]
+      },
+      "books": {
+        "title": "Data Cleaning Versions",
+        "question": "Data cleaning completed which version to use? \n\nVERSION A: hotel_cleaned_quick.csv\n- 347 empty cells filled with \"0\" \n- 89 duplicates deleted \n- Original file overwritten (save storage space)\n- Ready for analysis\n\nVERSION B: hotel_cleaned_documented.csv\n- 347 empty cells marked as \"NA\"\n- 89 duplicates removed\n- Raw data saved separately as \"hotel_raw_backup.csv\"\n- All steps documented in \"cleaning_protocol.txt\"\n- Ready for analysis\n\nVERSION C: hotel_cleaned_fast.csv\n- All rows with empty cells completely deleted (521 hotels gone!)\n- Very clean data\n- Fast processing possible\n- Original deleted",
+        "options": [
+          "Version A: hotel_cleaned_quick.csv",
+          "Version B: hotel_cleaned_documented.csv",
+          "Version C: hotel_cleaned_fast.csv"
+        ]
+      },
+      "cabinet": {
+        "title": "File Naming Chaos",
+        "question": "Help! \n\nThe project folder contains these files mixed up:\n\n- hotel data 2024-03-15 v1.csv\n- HOTEL-ANALYSIS_FINAL!!!.xlsx\n- hotel_survey_20240315_AG_v01.csv\n- Final Results (copy).pdf\n- hotel_data_FINAL_FINAL.xlsx\n\nThe team is completely confused:\n- Nobody knows which file is current\n- Spaces and special characters everywhere\n- No consistent versioning\n- Date sometimes there, sometimes not\n\nWhich file most closely complies with recommended naming conventions?",
+        "options": [
+          "hotel data 2024-03-15 v1.csv",
+          "HOTEL-ANALYSIS_FINAL!!!.xlsx",
+          "hotel_survey_20240315_AG_v01.csv",
+          "Final Results (copy).pdf",
+          "hotel_data_FINAL_FINAL.xlsx"
+        ]
+      },
+      "mouse": {
+        "title": "RDM Lifecycle Order",
+        "question": "Chaos! The RDM roadmap is all mixed up!\n\nYour colleague left 6 Post-its, but the wind blew them off the monitor:\n\n🟡(1) \"Data processing and analysis\"\n🟢(2) \"Project design and planning\"\n🔵(3) \"Data collection/creation\"\n🟠(4) \"Data reuse\"\n🟣(5) \"Data preservation and archiving\"\n🔴(6) \"Data sharing\"\n\nAccording to the RDM lifecycle: In which order should these 6 phases be executed?",
+        "options": [
+          "🟢 - 🔵 - 🟡 - 🟣 - 🔴 - 🟠",
+          "🟡 - 🟢 - 🔵 - 🟣 - 🔴 - 🟠",
+          "🟢 - 🔵 - 🟡 - 🔴 - 🟣 - 🟠",
+          "🔵 - 🟢 - 🟡 - 🟣 - 🔴 - 🟠"
+        ],
+        "sequenceHint": {
+          "title": "🔐 UNLOCK SEQUENCE REVEALED:",
+          "subtitle": "The Post-it colors show the final unlock order:",
+          "steps": [
+            "1st: 🟢 Planning",
+            "2nd: 🔵 Collection",
+            "3rd: 🟡 Analysis",
+            "4th: 🟣 Archive",
+            "5th: 🔴 Sharing",
+            "6th: 🟠 Reuse"
+          ]
+        }
+      },
+      "server": {
+        "title": "Repository Selection",
+        "question": "You are looking for a repository to share your data. Among the criteria below, which one will you NOT use to guide your choice?",
+        "options": [
+          "The ability to choose access conditions for the data",
+          "Assignment of a unique identifier (DOI)",
+          "The ability to choose a reuse license",
+          "The ability to use multiple open file formats",
+          "A clear long-term preservation policy",
+          "The beauty of the interface"
+        ]
+      },
+      "phone": {
+        "title": "Data Documentation",
+        "question": "Several files can be used to document your research project. Among the following options, which one is NOT directly related to data documentation?",
+        "options": [
+          "README file",
+          "Data Management Plan (DMP)",
+          "Codebook",
+          "Research protocol",
+          "Slides presented at a conference"
+        ]
+      }
+    },
+    "modal": {
+      "completed": "✓ COMPLETED - Review Mode",
+      "correctAnswer": "Correct Answer:",
+      "close": "Close",
+      "submit": "Submit"
+    },
+    "success": {
+      "title": "Deadline Extension Granted!",
+      "message": "Congratulations! You've successfully demonstrated your data management skills and saved your holiday. You can submit your project on 30 January.",
+      "continue": "Return to End Screen"
+    },
+    "errors": {
+    "incorrectAnswer": "Incorrect answer. Please try again."
+  }
+  }
+}

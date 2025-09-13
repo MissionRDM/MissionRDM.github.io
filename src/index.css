@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #121212;
+  color: #e0e0e0;
+}

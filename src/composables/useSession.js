@@ -14,8 +14,8 @@ export function useSession() {
     try {
       const sessionId = uuid()
       
-      // Create session data for Firebase
-      const firebaseSessionData = { id: sessionId }
+      // Create session data and include playerName for Firebase
+      const firebaseSessionData = { id: sessionId, playerName }
       
       // Save to Firebase
       await set(ref(db, `/${sessionId}`), firebaseSessionData)

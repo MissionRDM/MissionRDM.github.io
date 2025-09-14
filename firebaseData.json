@@ -1,0 +1,334 @@
+{
+  "test-user-001": {
+    "id": "test-user-alex-001",
+    "playerName": "Alex",
+    "levels": {
+      "1": {
+        "timeSpent": 760000,
+        "completedAt": 1734567890123
+      },
+      "2": {
+        "timeSpent": 520000,
+        "completedAt": 1734568950123
+      },
+      "3": {
+        "timeSpent": 580000,
+        "completedAt": 1734570010123
+      },
+      "4": {
+        "timeSpent": 640000,
+        "completedAt": 1734571070123
+      },
+      "5": {
+        "timeSpent": 640000,
+        "completedAt": 1734572130123
+      },
+      "6": {
+        "timeSpent": 340000,
+        "completedAt": 1734573190123
+      }
+    }
+  },
+  "test-user-002": {
+    "id": "test-user-maya-002",
+    "playerName": "Maya",
+    "levels": {
+      "1": {
+        "timeSpent": 880000,
+        "completedAt": 1734574250123
+      },
+      "2": {
+        "timeSpent": 640000,
+        "completedAt": 1734575310123
+      },
+      "3": {
+        "timeSpent": 700000,
+        "completedAt": 1734576370123
+      },
+      "4": {
+        "timeSpent": 520000,
+        "completedAt": 1734577430123
+      },
+      "5": {
+        "timeSpent": 760000,
+        "completedAt": 1734578490123
+      },
+      "6": {
+        "timeSpent": 460000,
+        "completedAt": 1734579550123
+      }
+    }
+  },
+  "test-user-003": {
+    "id": "test-user-alex-001",
+    "playerName": "Alex",
+    "levels": {
+      "1": {
+        "timeSpent": 760000,
+        "completedAt": 1734567890123
+      },
+      "2": {
+        "timeSpent": 520000,
+        "completedAt": 1734568950123
+      },
+      "3": {
+        "timeSpent": 580000,
+        "completedAt": 1734570010123
+      },
+      "4": {
+        "timeSpent": 640000,
+        "completedAt": 1734571070123
+      },
+      "5": {
+        "timeSpent": 640000,
+        "completedAt": 1734572130123
+      },
+      "6": {
+        "timeSpent": 340000,
+        "completedAt": 1734573190123
+      }
+    }
+  },
+  "test-user-004": {
+    "id": "test-user-maya-002",
+    "playerName": "Maya",
+    "levels": {
+      "1": {
+        "timeSpent": 880000,
+        "completedAt": 1734574250123
+      },
+      "2": {
+        "timeSpent": 640000,
+        "completedAt": 1734575310123
+      },
+      "3": {
+        "timeSpent": 700000,
+        "completedAt": 1734576370123
+      },
+      "4": {
+        "timeSpent": 520000,
+        "completedAt": 1734577430123
+      },
+      "5": {
+        "timeSpent": 760000,
+        "completedAt": 1734578490123
+      },
+      "6": {
+        "timeSpent": 460000,
+        "completedAt": 1734579550123
+      }
+    }
+  },
+  "test-user-005": {
+    "id": "test-user-alex-001",
+    "playerName": "Alex",
+    "levels": {
+      "1": {
+        "timeSpent": 760000,
+        "completedAt": 1734567890123
+      },
+      "2": {
+        "timeSpent": 520000,
+        "completedAt": 1734568950123
+      },
+      "3": {
+        "timeSpent": 580000,
+        "completedAt": 1734570010123
+      },
+      "4": {
+        "timeSpent": 640000,
+        "completedAt": 1734571070123
+      },
+      "5": {
+        "timeSpent": 640000,
+        "completedAt": 1734572130123
+      },
+      "6": {
+        "timeSpent": 340000,
+        "completedAt": 1734573190123
+      }
+    }
+  },
+  "test-user-006": {
+    "id": "test-user-maya-002",
+    "playerName": "Maya",
+    "levels": {
+      "1": {
+        "timeSpent": 880000,
+        "completedAt": 1734574250123
+      },
+      "2": {
+        "timeSpent": 640000,
+        "completedAt": 1734575310123
+      },
+      "3": {
+        "timeSpent": 700000,
+        "completedAt": 1734576370123
+      },
+      "4": {
+        "timeSpent": 520000,
+        "completedAt": 1734577430123
+      },
+      "5": {
+        "timeSpent": 760000,
+        "completedAt": 1734578490123
+      },
+      "6": {
+        "timeSpent": 460000,
+        "completedAt": 1734579550123
+      }
+    }
+  },
+  "test-user-007": {
+    "id": "test-user-alex-001",
+    "playerName": "Alex",
+    "levels": {
+      "1": {
+        "timeSpent": 760000,
+        "completedAt": 1734567890123
+      },
+      "2": {
+        "timeSpent": 520000,
+        "completedAt": 1734568950123
+      },
+      "3": {
+        "timeSpent": 580000,
+        "completedAt": 1734570010123
+      },
+      "4": {
+        "timeSpent": 640000,
+        "completedAt": 1734571070123
+      },
+      "5": {
+        "timeSpent": 640000,
+        "completedAt": 1734572130123
+      },
+      "6": {
+        "timeSpent": 340000,
+        "completedAt": 1734573190123
+      }
+    }
+  },
+  "test-user-008": {
+    "id": "test-user-maya-002",
+    "playerName": "Maya",
+    "levels": {
+      "1": {
+        "timeSpent": 880000,
+        "completedAt": 1734574250123
+      },
+      "2": {
+        "timeSpent": 640000,
+        "completedAt": 1734575310123
+      },
+      "3": {
+        "timeSpent": 700000,
+        "completedAt": 1734576370123
+      },
+      "4": {
+        "timeSpent": 520000,
+        "completedAt": 1734577430123
+      },
+      "5": {
+        "timeSpent": 760000,
+        "completedAt": 1734578490123
+      },
+      "6": {
+        "timeSpent": 460000,
+        "completedAt": 1734579550123
+      }
+    }
+  },
+  "test-user-009": {
+    "id": "test-user-alex-001",
+    "playerName": "Alex",
+    "levels": {
+      "1": {
+        "timeSpent": 760000,
+        "completedAt": 1734567890123
+      },
+      "2": {
+        "timeSpent": 520000,
+        "completedAt": 1734568950123
+      },
+      "3": {
+        "timeSpent": 580000,
+        "completedAt": 1734570010123
+      },
+      "4": {
+        "timeSpent": 640000,
+        "completedAt": 1734571070123
+      },
+      "5": {
+        "timeSpent": 640000,
+        "completedAt": 1734572130123
+      },
+      "6": {
+        "timeSpent": 340000,
+        "completedAt": 1734573190123
+      }
+    }
+  },
+  "test-user-010": {
+    "id": "test-user-maya-002",
+    "playerName": "Maya",
+    "levels": {
+      "1": {
+        "timeSpent": 880000,
+        "completedAt": 1734574250123
+      },
+      "2": {
+        "timeSpent": 640000,
+        "completedAt": 1734575310123
+      },
+      "3": {
+        "timeSpent": 700000,
+        "completedAt": 1734576370123
+      },
+      "4": {
+        "timeSpent": 520000,
+        "completedAt": 1734577430123
+      },
+      "5": {
+        "timeSpent": 760000,
+        "completedAt": 1734578490123
+      },
+      "6": {
+        "timeSpent": 460000,
+        "completedAt": 1734579550123
+      }
+    }
+  },
+  "averages": {
+    "level_1": {
+      "count": 10,
+      "totalTime": 1640000,
+      "average": 820000
+    },
+    "level_2": {
+      "count": 10,
+      "totalTime": 1160000,
+      "average": 580000
+    },
+    "level_3": {
+      "count": 10,
+      "totalTime": 1280000,
+      "average": 640000
+    },
+    "level_4": {
+      "count": 10,
+      "totalTime": 1160000,
+      "average": 580000
+    },
+    "level_5": {
+      "count": 10,
+      "totalTime": 1400000,
+      "average": 700000
+    },
+    "level_6": {
+      "count": 10,
+      "totalTime": 800000,
+      "average": 400000
+    }
+  }
+}

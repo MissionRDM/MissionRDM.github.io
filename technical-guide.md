@@ -195,7 +195,7 @@ npm run dev
 ```
 
 4. **Open in browser**
-Go to `http://localhost:5173/MissionRDM/`
+Go to `http://localhost:5173`
 
 ### Available Scripts
 
@@ -236,7 +236,6 @@ Key configuration in `vite.config.js`:
 ```javascript
 export default defineConfig({
   plugins: [vue()],
-  base: '/MissionRDM/',  
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
@@ -258,7 +257,7 @@ export default defineConfig({
 ### Game Levels
 - The game consists of multiple levels, each with its own set of challenges.
 - Each level has a unique set of tasks that must be completed to unlock the next level.
-- You can also navigate between levels using the url `http://localhost:5173/MissionRDM/level/X`, where `X` is the level number.
+- You can also navigate between levels using the url `http://localhost:5173/level/X`, where `X` is the level number.
 
 ### Hints and Solutions
 - Hints and solutions are provided for each level to help you progress.

@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/MissionRDM/',
+  base: '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

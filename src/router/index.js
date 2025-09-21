@@ -68,7 +68,7 @@ const routes = [
 // Create the router instance with the defined routes and history mode
 // Using createWebHashHistory for hash-based routing 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes
 })
 

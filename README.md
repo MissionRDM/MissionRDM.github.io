@@ -6,7 +6,7 @@ This game is based on the eponymous educational escape game created by [Myriam J
 
 ## Play the Game
 
-**Play the game:** [https://jodicooli.github.io/#/](https://jodicooli.github.io/#/)
+**Play the game:** [https://missionrdm.github.io](https://missionrdm.github.io)
 
 ## Technical Documentation
 

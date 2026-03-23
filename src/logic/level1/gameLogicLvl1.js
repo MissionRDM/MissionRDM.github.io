@@ -4,8 +4,10 @@ import { useI18n } from 'vue-i18n'
 import { useLevelCompletion } from '@/utils/useLevelCompletion'
 import hintImageEN from '@/assets/en/postits/hint1.png'
 import hintImageFR from '@/assets/fr/postits/hint1.png'
+import hintImageDE from '@/assets/de/postits/hint1.png'
 import hintImageEN2 from '@/assets/en/postits/hint2.png'
 import hintImageFR2 from '@/assets/fr/postits/hint2.png'
+import hintImageDE2 from '@/assets/de/postits/hint2.png'
 import char1 from '@/assets/characters/char1.png'
 import { useRoadmapStore } from '@/store/roadmap'
 import { playSound } from '@/utils/playSound'
@@ -79,7 +81,7 @@ export function useGameLogicLvl1(setFeedback) {
 
     // Step 1: User enters 8 → hint
     if (code === hintCode && !game.enteredCodes.includes(countCode)) {
-      const image = locale.value === 'fr' ? hintImageFR : hintImageEN
+      const image = locale.value === 'de' ? hintImageDE : locale.value === 'fr' ? hintImageFR : hintImageEN
       setFeedback('success', '')
       game.firstHintFound = true
       game.showOverlay({type: 'image', src: image,})
@@ -92,7 +94,7 @@ export function useGameLogicLvl1(setFeedback) {
       game.enteredCodes.push('8')
       setFeedback('success', '')
       playSound(stepFoundSound)
-      const image2 = locale.value === 'fr' ? hintImageFR2 : hintImageEN2
+      const image2 = locale.value === 'de' ? hintImageDE2 : locale.value === 'fr' ? hintImageFR2 : hintImageEN2
       game.showOverlay({type: 'image', src: image2,})
       roadmap.addEntry('step1', 'step1_3')
       checkUpdateScenarioImage()

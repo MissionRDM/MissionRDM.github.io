@@ -3,12 +3,16 @@ import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import hintImageEN4 from '@/assets/en/postits/hint4.png'
 import hintImageFR4 from '@/assets/fr/postits/hint4.png'
+import hintImageDE4 from '@/assets/de/postits/hint4.png'
 import hintImageEN5 from '@/assets/en/postits/hint5.png'
 import hintImageFR5 from '@/assets/fr/postits/hint5.png'
+import hintImageDE5 from '@/assets/de/postits/hint5.png'
 import hintImageEN6 from '@/assets/en/postits/hint6.png'
 import hintImageFR6 from '@/assets/fr/postits/hint6.png'
+import hintImageDE6 from '@/assets/de/postits/hint6.png'
 import hintImageEN7 from '@/assets/en/postits/hint7.png'
 import hintImageFR7 from '@/assets/fr/postits/hint7.png'
+import hintImageDE7 from '@/assets/de/postits/hint7.png'
 import callSound from '@/assets/audio/call.mp3'
 import { useLevelCompletion } from '@/utils/useLevelCompletion'
 import { useRoadmapStore } from '@/store/roadmap'
@@ -95,7 +99,7 @@ export function useGameLogicLvl3(setFeedback) {
             game.firstHintFound = true
             playSound(stepFoundSound)
             roadmap.addEntry('step3', 'step3_1')
-            const image = locale.value === 'fr' ? hintImageFR4 : hintImageEN4
+            const image = locale.value === 'de' ? hintImageDE4 : locale.value === 'fr' ? hintImageFR4 : hintImageEN4
             game.showOverlay({type: 'image', src: image,})
             return
         }
@@ -117,7 +121,8 @@ export function useGameLogicLvl3(setFeedback) {
             if (!game.enteredCodes.includes(hintCode3)) {
                 game.enteredCodes.push(hintCode3)
             }
-            game.showOverlay({type: 'image', src: locale.value === 'en' ? hintImageEN5 : hintImageFR5,})
+            const image = locale.value === 'de' ? hintImageDE5 : locale.value === 'fr' ? hintImageFR5 : hintImageEN5
+            game.showOverlay({type: 'image', src: image,})
             setFeedback('success', '')
             return
         }
@@ -128,7 +133,8 @@ export function useGameLogicLvl3(setFeedback) {
             if (!game.enteredCodes.includes(hintCode4)) {
                 game.enteredCodes.push(hintCode4)
             }
-            game.showOverlay({type: 'image', src: locale.value === 'en' ? hintImageEN6 : hintImageFR6,})
+            const image = locale.value === 'de' ? hintImageDE6 : locale.value === 'fr' ? hintImageFR6 : hintImageEN6
+            game.showOverlay({type: 'image', src: image,})
             setFeedback('success', '')
             return
         }
@@ -139,7 +145,8 @@ export function useGameLogicLvl3(setFeedback) {
             if (!game.enteredCodes.includes(hintCode5)) {
                 game.enteredCodes.push(hintCode5)
             }
-            game.showOverlay({type: 'image', src: locale.value === 'en' ? hintImageEN7 : hintImageFR7,})
+            const image = locale.value === 'de' ? hintImageDE7 : locale.value === 'fr' ? hintImageFR7 : hintImageEN7
+            game.showOverlay({type: 'image', src: image,})
             setFeedback('success', '')
             return
         }

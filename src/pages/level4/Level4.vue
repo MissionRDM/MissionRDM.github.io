@@ -93,6 +93,14 @@ import EnScenario7 from '@/assets/en/lvl4/scenario1.7.png'
 import FrScenario7 from '@/assets/fr/lvl4/scenario1.7.png'
 import EnScenario8 from '@/assets/en/lvl4/scenario1.8.png'
 import FrScenario8 from '@/assets/fr/lvl4/scenario1.8.png'
+import DeScenario from '@/assets/de/lvl4/scenario1.png'
+import DeScenario2 from '@/assets/de/lvl4/scenario1.2.png'
+import DeScenario3 from '@/assets/de/lvl4/scenario1.3.png'
+import DeScenario4 from '@/assets/de/lvl4/scenario1.4.png'
+import DeScenario5 from '@/assets/de/lvl4/scenario1.5.png'
+import DeScenario6 from '@/assets/de/lvl4/scenario1.6.png'
+import DeScenario7 from '@/assets/de/lvl4/scenario1.7.png'
+import DeScenario8 from '@/assets/de/lvl4/scenario1.8.png'
 import TutorialButton from '@/components/tutorial/TutorialButtonComponent.vue'
 import TutorialModal from '@/components/tutorial/TutorialModalComponent.vue'
 import { useGameLogicLvl4 } from '@/logic/level4/gameLogicLvl4.js'
@@ -161,7 +169,8 @@ const congratsSteps = computed(() => [
 
 const images = {
   en: { default: EnScenario, second: EnScenario2, third: EnScenario3, fourth: EnScenario4, fifth: EnScenario5, sixth: EnScenario6, seventh: EnScenario7, eighth: EnScenario8 },
-  fr: { default: FrScenario, second: FrScenario2, third: FrScenario3, fourth: FrScenario4, fifth: FrScenario5, sixth: FrScenario6, seventh: FrScenario7, eighth: FrScenario8 }
+  fr: { default: FrScenario, second: FrScenario2, third: FrScenario3, fourth: FrScenario4, fifth: FrScenario5, sixth: FrScenario6, seventh: FrScenario7, eighth: FrScenario8 },
+  de: { default: DeScenario, second: DeScenario2, third: DeScenario3, fourth: DeScenario4, fifth: DeScenario5, sixth: DeScenario6, seventh: DeScenario7, eighth: DeScenario8 }
 }
 
 const scenarioImage = computed(() => {

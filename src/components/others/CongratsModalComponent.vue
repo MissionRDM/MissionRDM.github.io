@@ -105,8 +105,8 @@ import { useI18n } from 'vue-i18n'
 import { useGameInfo } from '@/store/gameInfo'
 import { computed } from 'vue'
 
-const { t } = useI18n()
 const game = useGameInfo()
+const { t, locale } = useI18n()
 
 const props = defineProps({
   visible: Boolean,
@@ -122,6 +122,15 @@ const completionData = computed(() => game.levelCompletionData)
 function formatTime(seconds) {
   const mins = Math.floor(seconds / 60)
   const secs = seconds % 60
+  if (locale.value === 'de') {
+    if (mins === 0) {
+      return `${secs} Sekunde${secs !== 1 ? 'n' : ''}`
+    } else if (secs === 0) {
+      return `${mins} Minute${mins !== 1 ? 'n' : ''}`
+    } else {
+      return `${mins} Minute${mins !== 1 ? 'n' : ''} und ${secs} Sekunde${secs !== 1 ? 'n' : ''}`
+    }
+  } 
   if (mins === 0) {
     return `${secs} second${secs !== 1 ? 's' : ''}`
   } else if (secs === 0) {

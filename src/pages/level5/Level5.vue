@@ -104,6 +104,15 @@ import EnScenario7 from '@/assets/en/lvl5/scenario1.7.png'
 import FrScenario7 from '@/assets/fr/lvl5/scenario1.7.png'
 import EnScenario8 from '@/assets/en/lvl5/scenario1.8.png'
 import FrScenario8 from '@/assets/fr/lvl5/scenario1.8.png'
+import DeScenario from '@/assets/de/lvl5/scenario1.png'
+import DeScenario1 from '@/assets/de/lvl5/scenario1.1.png'
+import DeScenario2 from '@/assets/de/lvl5/scenario1.2.png'
+import DeScenario3 from '@/assets/de/lvl5/scenario1.3.png'
+import DeScenario4 from '@/assets/de/lvl5/scenario1.4.png'
+import DeScenario5 from '@/assets/de/lvl5/scenario1.5.png'
+import DeScenario6 from '@/assets/de/lvl5/scenario1.6.png'
+import DeScenario7 from '@/assets/de/lvl5/scenario1.7.png'
+import DeScenario8 from '@/assets/de/lvl5/scenario1.8.png'
 import TutorialButton from '@/components/tutorial/TutorialButtonComponent.vue'
 import TutorialModal from '@/components/tutorial/TutorialModalComponent.vue'
 import { useRoadmapStore } from '@/store/roadmap'
@@ -171,7 +180,8 @@ const congratsSteps = computed(() => [
 
 const images = {
   en: { default: EnScenario, second: EnScenario1, third: EnScenario2, fourth: EnScenario3, fifth: EnScenario4, sixth: EnScenario5, seventh: EnScenario6, eighth: EnScenario7, ninth: EnScenario8 },
-  fr: { default: FrScenario, second: FrScenario1, third: FrScenario2, fourth: FrScenario3, fifth: FrScenario4, sixth: FrScenario5, seventh: FrScenario6, eighth: FrScenario7, ninth: FrScenario8 }
+  fr: { default: FrScenario, second: FrScenario1, third: FrScenario2, fourth: FrScenario3, fifth: FrScenario4, sixth: FrScenario5, seventh: FrScenario6, eighth: FrScenario7, ninth: FrScenario8 },
+  de: { default: DeScenario, second: DeScenario1, third: DeScenario2, fourth: DeScenario3, fifth: DeScenario4, sixth: DeScenario5, seventh: DeScenario6, eighth: DeScenario7, ninth: DeScenario8 }
 }
 
 const scenarioImage = computed(() => {

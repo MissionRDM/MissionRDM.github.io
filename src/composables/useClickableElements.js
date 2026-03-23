@@ -12,12 +12,16 @@ import stepFoundSound from '@/assets/audio/stepFound.mp3'
 import char2 from '@/assets/characters/char2.png'
 import hintImageEN3 from '@/assets/en/postits/hint3.png'
 import hintImageFR3 from '@/assets/fr/postits/hint3.png'
+import hintImageDE3 from '@/assets/de/postits/hint3.png'
 import hintImageEN8 from '@/assets/en/postits/hint8.png'
 import hintImageFR8 from '@/assets/fr/postits/hint8.png'
+import hintImageDE8 from '@/assets/de/postits/hint8.png'
 import hintImageEN13 from '@/assets/en/postits/hint13.png'
 import hintImageFR13 from '@/assets/fr/postits/hint13.png'
+import hintImageDE13 from '@/assets/de/postits/hint13.png'
 import hintImageEN15 from '@/assets/en/postits/hint15.png'
 import hintImageFR15 from '@/assets/fr/postits/hint15.png'
+import hintImageDE15 from '@/assets/de/postits/hint15.png'
 
 // Function to handle all clickable elements in the game
 // This composable manages the logic for clickable elements across different levels of the game
@@ -97,7 +101,7 @@ export function useClickableElements() {
   function handleElementLvl2Click() {
     if (!canShowLvl2.value) return
     game.firstHintFound = true
-    const image = locale.value === 'en' ? hintImageEN3 : hintImageFR3
+    const image = locale.value === 'en' ? hintImageEN3 : locale.value === 'fr' ? hintImageFR3 : hintImageDE3
     game.showOverlay({ type: 'image', src: image })
   }
 
@@ -145,7 +149,7 @@ export function useClickableElements() {
     
     game.showOverlay({ 
       type: 'image', 
-      src: locale.value === 'en' ? hintImageEN8 : hintImageFR8 
+      src: locale.value === 'en' ? hintImageEN8 : locale.value === 'fr' ? hintImageFR8 : hintImageDE8
     })
     game.secondHintFound = true
   }
@@ -187,7 +191,7 @@ export function useClickableElements() {
     game.calledCharacters['Santiago'] = false
     game.showOverlay({
       type: 'image', 
-      src: locale.value === 'en' ? hintImageEN13 : hintImageFR13
+      src: locale.value === 'en' ? hintImageEN13 : locale.value === 'fr' ? hintImageFR13 : hintImageDE13
     })
     game.secondHintFound = true
   }
@@ -218,7 +222,7 @@ export function useClickableElements() {
     if (!canShowLvl5Click2.value) return
     
     game.secondHintFound = true
-    const image = locale.value === 'fr' ? hintImageFR15 : hintImageEN15
+    const image = locale.value === 'fr' ? hintImageFR15 : locale.value === 'de' ? hintImageDE15 : hintImageEN15
     game.showOverlay({ type: 'image', src: image })
   }
 

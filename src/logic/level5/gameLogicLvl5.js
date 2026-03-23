@@ -3,8 +3,10 @@ import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import hintImageEN14 from '@/assets/en/postits/hint14.png'
 import hintImageFR14 from '@/assets/fr/postits/hint14.png'
+import hintImageDE14 from '@/assets/de/postits/hint14.png'
 import hintImageEN16 from '@/assets/en/postits/hint16.png'
 import hintImageFR16 from '@/assets/fr/postits/hint16.png'
+import hintImageDE16 from '@/assets/de/postits/hint16.png'
 import callSound from '@/assets/audio/call.mp3'
 import { useLevelCompletion } from '@/utils/useLevelCompletion'
 
@@ -95,7 +97,7 @@ function handleCodeInput(code) {
     if (code === hintCode1 && game.enteredCodes.length === 0) {
         setFeedback('success', '')
         game.firstHintFound = true
-        const image = locale.value === 'fr' ? hintImageFR14 : hintImageEN14
+        const image = locale.value === 'de' ? hintImageDE14 : locale.value === 'fr' ? hintImageFR14 : hintImageEN14
         game.showOverlay({type: 'image', src: image,})
         game.currentScenarioImage = 'second'
         return
@@ -168,7 +170,7 @@ function handleCodeInput(code) {
     if (code === hintCode3 && game.currentScenarioImage === 'seventh') {
         setFeedback('success', '')
         game.thirdHintFound = true
-        const image = locale.value === 'fr' ? hintImageFR16 : hintImageEN16
+        const image = locale.value === 'de' ? hintImageDE16 : locale.value === 'fr' ? hintImageFR16 : hintImageEN16
         game.showOverlay({type: 'image', src: image,})
         return
     }

@@ -3,12 +3,16 @@ import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import hintImageEN9 from '@/assets/en/postits/hint9.png'
 import hintImageFR9 from '@/assets/fr/postits/hint9.png'
+import hintImageDE9 from '@/assets/de/postits/hint9.png'
 import hintImageEN10 from '@/assets/en/postits/hint10.png'
 import hintImageFR10 from '@/assets/fr/postits/hint10.png'
+import hintImageDE10 from '@/assets/de/postits/hint10.png'
 import hintImageEN11 from '@/assets/en/postits/hint11.png'
 import hintImageFR11 from '@/assets/fr/postits/hint11.png'
+import hintImageDE11 from '@/assets/de/postits/hint11.png'
 import hintImageEN12 from '@/assets/en/postits/hint12.png'
 import hintImageFR12 from '@/assets/fr/postits/hint12.png'
+import hintImageDE12 from '@/assets/de/postits/hint12.png'
 import messageSound from '@/assets/audio/message.mp3'
 import callSound from '@/assets/audio/call.mp3'
 import char2 from '@/assets/characters/char2.png'
@@ -102,6 +106,7 @@ export function useGameLogicLvl4(setFeedback) {
         const fifthCode = '61'
         const fifthCodeEN = '17'
         const fifthCodeFR = '32'
+        const fifthCodeDE = '14'
         const hintCode3 = '3'
         const messageCode = '47'
 
@@ -119,19 +124,22 @@ export function useGameLogicLvl4(setFeedback) {
         if ((code === hintCode1 || code === hintCode2) && game.currentScenarioImage === 'third' && game.callSequence['Inès'] >= 1) {
             if (code === hintCode1) {
                 setFeedback('success', '')
-                game.showOverlay({type: 'image', src: locale.value === 'en' ? hintImageEN9 : hintImageFR9,})
+                    const image = locale.value === 'de' ? hintImageDE9 : locale.value === 'fr' ? hintImageFR9 : hintImageEN9
+                    game.showOverlay({type: 'image', src: image,})
                 if (!game.enteredCodes.includes(code)) {
                     game.enteredCodes.push(code)
                 }
             } else if (code === hintCode2) {
                 setFeedback('success', '')
                 if (game.enteredCodes.includes(hintCode1)) {
-                    game.showOverlay({type: 'image', src: locale.value === 'en' ? hintImageEN11 : hintImageFR11,})
+                    const image = locale.value === 'de' ? hintImageDE11 : locale.value === 'fr' ? hintImageFR11 : hintImageEN11
+                        game.showOverlay({type: 'image', src: image,})
                     if (!game.enteredCodes.includes(code)) {
                         game.enteredCodes.push(code)
                     }
                 } else {
-                    game.showOverlay({type: 'image', src: locale.value === 'en' ? hintImageEN10 : hintImageFR10,})
+                    const image = locale.value === 'de' ? hintImageDE10 : locale.value === 'fr' ? hintImageFR10 : hintImageEN10
+                    game.showOverlay({type: 'image', src: image,})
                 }
             }
             return
@@ -175,7 +183,8 @@ export function useGameLogicLvl4(setFeedback) {
             setFeedback('success', '')
             game.removeOverlay(game.overlayId)
             // show overlay with hint
-            game.showOverlay({type: 'image', src: locale.value === 'en' ? hintImageEN12 : hintImageFR12,})
+            const image = locale.value === 'de' ? hintImageDE12 : locale.value === 'fr' ? hintImageFR12 : hintImageEN12
+            game.showOverlay({type: 'image', src: image,})
             game.firstHintFound = true
             return
         }
@@ -191,10 +200,10 @@ export function useGameLogicLvl4(setFeedback) {
         }
 
         // Step 6: user enters 17/32 (only after calling Santiago second time)
-        if ((code === fifthCodeEN || code === fifthCodeFR) && game.currentScenarioImage === 'seventh' && 
+        if ((code === fifthCodeEN || code === fifthCodeFR || code === fifthCodeDE) && game.currentScenarioImage === 'seventh' && 
             game.secondHintFound && game.callSequence['Santiago'] >= 2) {
             //check the language and entered Code
-            if ((locale.value === 'en' && code === fifthCodeEN) || (locale.value === 'fr' && code === fifthCodeFR)) {
+            if ((locale.value === 'en' && code === fifthCodeEN) || (locale.value === 'fr' && code === fifthCodeFR) || (locale.value === 'de' && code === fifthCodeDE)) {
                 setFeedback('success', '')
                 game.removeOverlay(game.overlayId)
                 //show message from Anne

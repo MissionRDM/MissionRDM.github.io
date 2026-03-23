@@ -5,12 +5,13 @@ import router from './router'
 import { createI18n } from 'vue-i18n'
 import en from './data/en.json'
 import fr from './data/fr.json'
+import de from './data/de.json'
 import './index.css'
 
 const i18n = createI18n({
   locale: localStorage.getItem('lang') || 'en',
   fallbackLocale: 'en',
-  messages: { en, fr }
+  messages: { en, fr, de }
 })
 
 const app = createApp(App)

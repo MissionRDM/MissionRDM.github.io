@@ -11,7 +11,7 @@ export function useHintsSolutionsLvl4() {
     const codes = game.enteredCodes
 
     // Step 13: Final step - enter 47 to complete level
-    if (game.currentScenarioImage === 'eighth' && codes.includes('17') || codes.includes('32')) {
+    if (game.currentScenarioImage === 'eighth' && codes.includes('17') || codes.includes('32') || codes.includes('14')) {
       return 'thirteenth'
     }
 

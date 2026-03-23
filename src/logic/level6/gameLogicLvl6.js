@@ -3,6 +3,7 @@ import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import hintImageEN17 from '@/assets/en/postits/hint17.png'
 import hintImageFR17 from '@/assets/fr/postits/hint17.png'
+import hintImageDE17 from '@/assets/de/postits/hint17.png'
 import { useRoadmapStore } from '@/store/roadmap'
 import { playSound } from '@/utils/playSound'
 import stepFoundSound from '@/assets/audio/stepFound.mp3'
@@ -20,6 +21,7 @@ export function useGameLogicLvl6(setFeedback) {
         const firstCode = '2'
         const hintCode1 = '1'
         const finalCode = '1323'
+        const finalCodeDe = '263517'
 
         // Step 1: User enters code '2' change scenario to second 
         if (code === firstCode && game.enteredCodes.length === 0) {
@@ -36,7 +38,7 @@ export function useGameLogicLvl6(setFeedback) {
             setFeedback('success', '')
             game.enteredCodes.push(code)
             game.firstHintFound = true
-            const image = locale.value === 'fr' ? hintImageFR17 : hintImageEN17
+            const image = locale.value === 'de' ? hintImageDE17 : locale.value === 'fr' ? hintImageFR17 : hintImageEN17
             game.showOverlay({type: 'image', src: image,})
             game.currentScenarioImage = 'third'
             return
@@ -45,13 +47,22 @@ export function useGameLogicLvl6(setFeedback) {
         // User can still enter code 1 to see the hint
         if (code === hintCode1 && game.currentScenarioImage === 'third') {
             setFeedback('success', '')
-            const image = locale.value === 'fr' ? hintImageFR17 : hintImageEN17
+            const image = locale.value === 'de' ? hintImageDE17 : locale.value === 'fr' ? hintImageFR17 : hintImageEN17
             game.showOverlay({type: 'image', src: image,})
             return
         }
 
+        // Step 3: User enters code '263017' change scenario to third
+        if (code === finalCodeDe && game.currentScenarioImage === 'fourth' && game.enteredCodes.includes(firstCode) && game.firstHintFound && locale.value === 'de') {
+            completeLevel6()
+            setFeedback('success', '')
+            playSound(levelSound)
+            game.showCongratsModal = true
+            return
+        }
+
         // Step 3: User enters code '1323' change scenario to third
-        if (code === finalCode && game.currentScenarioImage === 'fourth' && game.enteredCodes.includes(firstCode) && game.firstHintFound) {
+        if (code === finalCode && game.currentScenarioImage === 'fourth' && game.enteredCodes.includes(firstCode) && game.firstHintFound && locale.value !== 'de') {
             completeLevel6()
             setFeedback('success', '')
             playSound(levelSound)

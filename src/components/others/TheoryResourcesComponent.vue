@@ -42,9 +42,13 @@ const { locale } = useI18n()
 // This property checks the current locale and returns the appropriate URL for the PDF guide
 const pdfUrl = computed(() => {
   const lang = locale.value
-  return lang === 'fr'
-    ? 'https://hevs.allinone.io/media/document/22/mission-gdr-2024-guide-complementaire.pdf'
-    : 'https://hevs.allinone.io/media/document/22/mission-rdm-2024-complementary-guide.pdf'
+  if (lang === 'fr') {
+    return 'https://hevs.allinone.io/media/document/22/mission-gdr-2024-guide-complementaire.pdf'
+  } else if (lang === 'de') {
+    return 'https://hevs.allinone.io/media/document/22/mission-rdm-2024-complementary-guide.pdf'
+  } else {
+    return 'https://hevs.allinone.io/media/document/22/mission-rdm-2024-complementary-guide.pdf'
+  }
 })
 
 // Function to open the PDF in a new tab
@@ -57,9 +61,16 @@ const openPDF = () => {
 // This function checks the current locale and opens the corresponding external resource link in a new tab
 const openExternalLink = () => {
   const lang = locale.value
-  const url = lang === 'fr'
-    ? 'https://doi.org/10.5281/zenodo.6391188'
-    : 'https://doi.org/10.5281/zenodo.7985732'
-  window.open(url, '_blank')
+  if (lang === 'de') {
+    window.open('https://zenodo.org/records/15646264', '_blank')
+    return
+  }
+  if (lang === 'fr') {
+    window.open('https://doi.org/10.5281/zenodo.6391188', '_blank')
+    return
+  }
+  else {
+    window.open('https://doi.org/10.5281/zenodo.7985732', '_blank')
+  }
 }
 </script>

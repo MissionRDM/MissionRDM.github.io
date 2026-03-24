@@ -36,8 +36,7 @@ export function useLevelCompletion() {
         isAboveAverage: averageTime ? finalTimeSpent < averageTime : null,
         hasTimer: !!timer
       }
-      
-     } catch (error) {
+    } catch (error) {
       console.error('Error completing level:', error)
     }
   }

@@ -69,10 +69,10 @@ import EnScenario2 from '@/assets/en/lvl6/scenario1.1.png'
 import FrScenario2 from '@/assets/fr/lvl6/scenario1.1.png'
 import EnScenario3 from '@/assets/en/lvl6/scenario1.2.png'
 import FrScenario3 from '@/assets/fr/lvl6/scenario1.2.png'
-import Enscenario4 from '@/assets/en/lvl6/scenario1.3.png'
-import Frscenario4 from '@/assets/fr/lvl6/scenario1.3.png'
-import Enscenario5 from '@/assets/en/lvl6/scenario1.4.png'
-import Frscenario5 from '@/assets/fr/lvl6/scenario1.4.png'
+import EnScenario4 from '@/assets/en/lvl6/scenario1.3.png'
+import FrScenario4 from '@/assets/fr/lvl6/scenario1.3.png'
+import EnScenario5 from '@/assets/en/lvl6/scenario1.4.png'
+import FrScenario5 from '@/assets/fr/lvl6/scenario1.4.png'
 import DeScenario from '@/assets/de/lvl6/scenario1.png'
 import DeScenario2 from '@/assets/de/lvl6/scenario1.1.png'
 import DeScenario3 from '@/assets/de/lvl6/scenario1.2.png'
@@ -139,8 +139,8 @@ const congratsSteps = computed(() => [
 ])
 
 const images = {
-  en: { default: EnScenario, second: EnScenario2, third: EnScenario3, fourth: Enscenario4, fifth: Enscenario5 },
-  fr: { default: FrScenario, second: FrScenario2, third: FrScenario3, fourth: Frscenario4, fifth: Frscenario5 },
+  en: { default: EnScenario, second: EnScenario2, third: EnScenario3, fourth: EnScenario4, fifth: EnScenario5 },
+  fr: { default: FrScenario, second: FrScenario2, third: FrScenario3, fourth: FrScenario4, fifth: FrScenario5 },
   de: { default: DeScenario, second: DeScenario2, third: DeScenario3, fourth: DeScenario4, fifth: DeScenario5 }
 }
 

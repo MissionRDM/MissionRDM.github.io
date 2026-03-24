@@ -30,4 +30,6 @@ export function useHintsSolutions() {
         return useHintsSolutionsLvl6()
     }
     
+    return {}
+    
 }

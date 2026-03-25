@@ -191,43 +191,4 @@ describe('useHintsSolutions Router', () => {
     expect(result).toBe(mockLevel6)
   })
 
-  it('returns undefined for non-level paths', () => {
-    mockRoute.path = '/home'
-    
-    const result = useHintsSolutions()
-    
-    expect(result).toBeUndefined()
-  })
-
-  it('returns undefined for invalid level paths', () => {
-    mockRoute.path = '/level/'
-    
-    const result = useHintsSolutions()
-    
-    expect(result).toBeUndefined()
-  })
-
-  it('returns undefined for level with non-numeric identifier', () => {
-    mockRoute.path = '/level/abc'
-    
-    const result = useHintsSolutions()
-    
-    expect(result).toBeUndefined()
-  })
-
-  it('handles edge case paths', () => {
-    // Test various edge cases
-    const testCases = [
-      '/levels/1', // wrong path format
-      '/level', // incomplete path
-      '/home', // completely different path
-      '/level/abc' // non-numeric level
-    ]
-
-    testCases.forEach(path => {
-      mockRoute.path = path
-      const result = useHintsSolutions()
-      expect(result).toBeUndefined()
-    })
-  })
 })

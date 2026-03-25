@@ -76,7 +76,7 @@
         <!-- Footer -->
         <footer class="border-t border-gray-800 py-6 px-4">
           <div class="text-gray-500 text-sm leading-relaxed text-center space-y-4">
-            <p class="text-gray-500 text-sm mt-2 text-center [&_a]:text-yellow-400 [&_a:hover]:text-yellow-300" v-html=" t('endScreen.EndMsg')"></p>
+            <p class="text-gray-500 text-sm mt-2 text-center [&_a]:text-yellow-400 [&_a:hover]:text-yellow-300" v-html="credits[locale]"></p>
             <p class="text-gray-500 text-sm">
               {{ $t('endScreen.EndMsg2') }}
             </p>
@@ -97,11 +97,12 @@ import RoadmapModal from '@/components/roadmap/RoadmapModalComponent.vue'
 import TheoryResourcesCard from '@/components/others/TheoryResourcesComponent.vue'
 import TestGameCard from '@/components/others/TestGameComponent.vue'
 import ContactFormCard from '@/components/others/ContactFormComponent.vue'
+import { credits } from '@/constants/credits'
 
 const router = useRouter()
 const roadmap = useRoadmapStore()
 const showRoadmap = ref(false)
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
 onMounted(() => {
   roadmap.initializeSteps()

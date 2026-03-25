@@ -9,9 +9,14 @@ import de from './data/de.json'
 import './index.css'
 
 const i18n = createI18n({
+  legacy: false,
   locale: localStorage.getItem('lang') || 'en',
   fallbackLocale: 'en',
-  messages: { en, fr, de }
+  messages: {
+    en,
+    fr,
+    de
+  },
 })
 
 const app = createApp(App)

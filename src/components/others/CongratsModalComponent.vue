@@ -131,6 +131,15 @@ function formatTime(seconds) {
       return `${mins} Minute${mins !== 1 ? 'n' : ''} und ${secs} Sekunde${secs !== 1 ? 'n' : ''}`
     }
   } 
+  if (locale.value === 'fr') {
+    if (mins === 0) {
+      return `${secs} seconde${secs !== 1 ? 's' : ''}`
+    } else if (secs === 0) {
+      return `${mins} minute${mins !== 1 ? 's' : ''}`
+    } else {
+      return `${mins} minute${mins !== 1 ? 's' : ''} et ${secs} seconde${secs !== 1 ? 's' : ''}`
+    }
+  }
   if (mins === 0) {
     return `${secs} second${secs !== 1 ? 's' : ''}`
   } else if (secs === 0) {

@@ -45,7 +45,7 @@ const pdfUrl = computed(() => {
   if (lang === 'fr') {
     return 'https://hevs.allinone.io/media/document/22/mission-gdr-2024-guide-complementaire.pdf'
   } else if (lang === 'de') {
-    return 'https://hevs.allinone.io/media/document/22/mission-rdm-2024-complementary-guide.pdf'
+    return 'https://hevs.allinone.io/media/document/23/mission-fdm-2025-ergaenzender-leitfaden.pdf'
   } else {
     return 'https://hevs.allinone.io/media/document/22/mission-rdm-2024-complementary-guide.pdf'
   }

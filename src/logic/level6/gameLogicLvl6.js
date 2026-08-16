@@ -21,7 +21,7 @@ export function useGameLogicLvl6(setFeedback) {
         const firstCode = '2'
         const hintCode1 = '1'
         const finalCode = '1323'
-        const finalCodeDe = '263517'
+        const finalCodeDe = '1323'
 
         // Step 1: User enters code '2' change scenario to second 
         if (code === firstCode && game.enteredCodes.length === 0) {

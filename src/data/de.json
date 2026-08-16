@@ -2,11 +2,11 @@
   "startScreen": {
     "title": "WILKOMMEN ZU MISSION FDM!",
     "subtitle": "Ein Serious Spiel über FDM (Forschungsdatenmanagement). Viel Glück!",
-    "enterName": "Gebe deinen Namen ein",
-    "namePlaceholder": "Dein Name",
+    "enterName": "Geben Sie Ihren Namen ein",
+    "namePlaceholder": "Ihr Name",
     "startGame": "Spiel starten",
     "tutorial": "Tutorial",
-    "nameError": "Dein Name darf nur Buchstaben und Zahlen enthalten."
+    "nameError": "Ihr Name darf nur Buchstaben und Zahlen enthalten."
   },
   "intro": {
     "text": "Sie sind Teil eines Nachwuchsforschungsteams eines Schweizer Tourismusinstituts und planen ein Forschungsprojekt zur Hotelindustrie in der Schweiz. \n\nIhre erfahrene Kollegin hat mit ihrem Team bereits eine Studie zu diesem Thema durchgeführt. Im Gegensatz zu ihr sind Sie noch nicht so gut über die Anforderungen an ein optimales Datenmanagement informiert, da Sie den Lehrgang Ihrer Bibliothek zum Forschungsdatenmanagement noch nicht besuchen konnten. \n\nIhre Kollegin Anne bricht heute Nachmittag zu einer Exkursion ins Amazonasgebiet auf. Kurz bevor sie geht, entwirft sie Ihnen noch schnell eine Roadmap mit den wichtigsten Schritten für ein gutes Forschungsdatenmanagement und die ordnungsgemässe Verwaltung Ihrer Forschungsdaten. Da ihr Flugzeug kurz vor dem Start steht, hat sie keine Zeit mehr, die Roadmap fertigzustellen, und schlägt vor, dass Sie in ihr Büro gehen, wo Sie in ihren und den Unterlagen ihres Teams alle Informationen finden sollten, um die angefangene Liste zu vervollständigen. \n\nZum Glück können Sie sich auch auf Santiago, den Informationsspezialisten der Institutsbibliothek, Inès, eine IT-Spezialistin, und Jack, den Rechtsexperten des Instituts, verlassen, die Ihnen bei Ihrer Mission helfen werden. \n\nAber Achtung: In einer Stunde wird das Gebäude über die Feiertage zum Jahresende abgeschlossen! Sie müssen vorher fertig werden, wenn Sie über die Ferien nicht eingesperrt sein wollen...",    
@@ -15,19 +15,19 @@
   "congrats": {
     "title": "Glückwunsch!",
     "subtitle": "Level {level} abgeschlossen!",
-    "achievement": "Du hast ein Abzeichen freigeschaltet!",
-    "message": "Du hast alle Ziele für dieses Level erfolgreich abgeschlossen!",
+    "achievement": "Sie haben ein Abzeichen freigeschaltet!",
+    "message": "Sie haben alle Ziele für dieses Level erfolgreich abgeschlossen!",
     "continue": "Weiter",
-    "timeMessage": "Du hast {time} für Level {level} benötigt.",
+    "timeMessage": "Sie haben {time} für Level {level} benötigt.",
     "averageMessage": " Der Durchschnitt für dieses Level beträgt {avgTime}.",
-    "fastMessage": " Ausgezeichnet! Du hast es mit grosser Konzentration gelöst!",
-    "thoroughMessage": " Gut gemacht! Es ist toll, dass du dir die Zeit nimmst, Aufgaben gründlich zu lösen!",
+    "fastMessage": " Ausgezeichnet! Sie haben es mit grosser Konzentration gelöst!",
+    "thoroughMessage": " Gut gemacht! Es ist toll, dass Sie sich die Zeit nehmen, Aufgaben gründlich zu lösen!",
     "noDataMessage": " Fantastische Arbeit beim Abschliessen des Levels!"
   },
   "timer": {
     "penaltyWarning": "Zeitstrafe Warnung",
-    "hintPenaltyWarning": "Die Verwendung eines Hinweises fügt 30 Sekunden zu deinem Timer hinzu. Möchtest du wirklich fortfahren?",
-    "solutionPenaltyWarning": "Das Anzeigen der Lösung fügt 60 Sekunden zu deinem Timer hinzu. Möchtest du wirklich fortfahren?",
+    "hintPenaltyWarning": "Die Verwendung eines Hinweises fügt 30 Sekunden zu Ihrem Timer hinzu. Möchten Sie wirklich fortfahren?",
+    "solutionPenaltyWarning": "Das Anzeigen der Lösung fügt 60 Sekunden zu Ihrem Timer hinzu. Möchten Sie wirklich fortfahren?",
     "acceptPenalty": "Strafe akzeptieren",
     "cancel": "Abbrechen"
   },
@@ -38,24 +38,24 @@
     "placeholder": "Code",
     "delete": "⌫",
     "enter": "Eingabe",
-    "callUnavailable": "Ich kann gerade nicht sprechen. Versuch, mich später anzurufen.",
-    "call1": "Hey {playerName}! Du brauchst Hilfe bei den Namenskonventionen? Hier sind einige Namenskonventionen, die dir helfen könnten:\n\n→ Wähle einen kurzen und aussagekräftigen Dateinamen: max. 32 Zeichen, beginne mit dem wichtigsten Element und verwende vordefinierte Abkürzungen, um die Zeichenanzahl zu begrenzen.\n\n→ Der Dateiname muss das Thema, das Datum und die Version enthalten. Vermeide Sonderzeichen, Satzzeichen und Akzente.\n\n→ Vermeide Leerzeichen zwischen Wörtern; verwende Unterstriche und Grossbuchstaben. Verwende standardisierte Datumsformate wie JJJJMMTT oder JJJJ-MM-TT.\n\n→ Füge einen vordefinierten Versionsindikator wie V05 oder _final für die endgültige Version ein.\n\nViel Erfolg und ruf mich wieder an, wenn du Hilfe brauchst!",
-    "call2": "Hey {playerName}! Ich erkläre dir das kurz am Telefon. Um Daten zu bereinigen, solltest du unnötige Felder entfernen und die Datenanalyse durch Standardisierung erleichtern.\n\nDafür können verschiedene Programme verwendet werden. Es hängt von der Art der Daten, der Menge, den verfügbaren Ressourcen und der Erfahrung des Teams ab. Einige Beispiele für kostenlose Tools sind: OpenRefine oder R\n\nWie bereinigt man Daten?\n\n→ Wesentliche Daten identifizieren (z. B. unnötige Felder löschen, die automatisch von der Datenerhebungssoftware hinzugefügt wurden)\n→ Doppelte Daten identifizieren und entfernen\n→ Leere Werte auflösen\n→ Einheitlichkeit der Daten sicherstellen (Daten desselben Typs sollten dieselbe Form haben)\n\nWichtig: Bewahre immer eine Rohversion deiner Datei auf und halte alle Bereinigungsschritte fest, um Transparenz und Reproduzierbarkeit zu gewährleisten!\n\nFüge die richtige Datei zur Analysesoftware hinzu.\n\nViel Erfolg und ruf mich zurück, wenn du Hilfe brauchst!",
-    "call3": "Hallo {playerName}! Ich kann dir einige Informationen zu Dateiformaten geben. Ein offenes Format ist eine Datei, die von mehreren Programmen gelesen werden kann. Die Verwendung offener Formate dient zwei Hauptzielen:\n\n→ Den Zugang zu deinen Dokumenten unabhängig von der verwendeten Software sicherstellen\n→ Die Langlebigkeit deiner Dokumente sicherstellen, damit sie auch dann zugänglich bleiben, wenn die zu ihrer Erstellung verwendete Software nicht mehr verfügbar ist\n\nIch sende dir eine E-Mail mit zusätzlichen Informationen zu verschiedenen Formattypen und Dateiendungen. Das wird dir helfen. Bis bald!",
-    "call4": "Hallo {playerName},\n\nWährend eines Forschungsprojekts wird eine grosse Menge an Daten erstellt, und es ist aus mehreren Gründen nicht möglich, alle zu archivieren/aufzubewahren:\n\n→ Kosten für die Archivierung\n→ Je grösser das Volumen der archivierten Daten, desto schwieriger ist es, sie zu finden\n→ Kosten für die Erstellung und Pflege von Metadaten\n\nDaher ist es notwendig, 4.2 den Datenwert zu identifizieren und die Datenaufbewahrung zu bestimmen\n\nDu fragst dich vielleicht, wie du auswählen sollst, welche Daten archiviert werden sollen? Das hängt von vielen Kriterien ab. Ich sende dir die Datei mit allen Details.\n\nViel Erfolg und ruf mich zurück, wenn du Hilfe brauchst!",
-    "call5": "Hey {playerName},\n\nIch rufe an, um dir weitere Informationen zu geben.\n\nEs ist wichtig, 4.3 den gespeicherten Daten geeignete Metadaten hinzuzufügen, um ihre Auffindbarkeit zu gewährleisten. Metadaten werden üblicherweise als \"Daten über Daten\" beschrieben.\n\nEs gibt verschiedene Arten von Metadaten:\n→ Beschreibende Metadaten: Titel, Thema, Datenersteller...\n→ Administrative Metadaten: Dateiformate, Versionen, Wiederverwendungsoptionen...\n→ Strukturelle Metadaten: Beziehungen zu anderen Entitäten, Variablenliste...\n\nIch sende dir ein Beispiel, nämlich die Metadaten des Projekts deiner Kollegin im XML-Format. Ruf mich zurück, sobald du es erhalten hast.",
-    "call6": "Danke, dass du zurückgerufen hast {playerName},\n\nIm Gegensatz zur Datendokumentation – die nur für Menschen lesbar sein soll – müssen Metadaten maschinenlesbar sein, damit sie online auffindbar sind. Metadaten werden daher oft in XML umgewandelt.\n\nEs gibt Tools, die Teams beim Schreiben von Metadaten in XML helfen können, wie z. B. den Datacite Metadata Generator.\n\nMetadaten sind standardisierte Informationen. Es gibt viele Schemata, sowohl fachspezifische als auch allgemeine.\n\nIch hoffe, das hat die Sache geklärt! Ich muss jetzt los, die Weihnachtseinkäufe erledigen sich nicht von selbst.\n\nAch, und bevor ich es vergesse: Addiere nur die Zahlen der Jahresangaben, um weiterzumachen – bis später!",
-    "call7": "Hallo {playerName},\n\nJa, ich erinnere mich, dass sie tatsächlich zwischen mehreren Repositorien gezögert haben…\n\nLass mich nachdenken…\n\n… Ich erinnere mich, am Ende hat das Forschungsteam ein Repository gewählt, das kostenlos ist und dessen Server sich alle in der Schweiz befinden. Öffne den Vergleich der drei Repositorien, um die richtige Antwort zu finden.\n\nAddiere 70 zur Nummer (#) des gewählten Repositoriums.\n\nViel Erfolg!",
-    "call8": "Jack am Apparat.\n\nAh, ja {playerName}, die Diskussion über Creative Commons und Urheberrecht. Ich erinnere mich…\n\nAlso zunächst zur Begriffserklärung: Creative-Commons-Lizenzen sind Verbreitungslizenzen, die es ermöglichen, bestimmte Nutzungsrechte an veröffentlichten Materialien im Voraus einzuräumen. Sie ergänzen das Urheberrecht der Autorinnen und Autoren.\n\nIch schicke dir eine kleine Übersicht mit den Lizenzoptionen. Sie enthält Icons, rechtliche Formulierungen und all das.\n\nDu wirst wissen, welche passt, wenn du sie siehst.\n\nViel Erfolg!",
-    "call9": "Hey {playerName}, ich habe gehört, dass du Hilfe bei Identifikatoren brauchst? Ich helfe dir gerne.\n\nEs gibt zwei Haupttypen von Identifikatoren:\n→ Objektidentifikatoren für Publikationen und Daten\n→ Beitragsidentifikatoren für Autorinnen, Autoren und Organisationen\n\nHier sind einige Beispiele für Identifikatoren:\n→ Handle 20.1000/100\n→ DOI doi:10.1000/182\n→ ORCID 0000-0002-1825-0097\n→ ArXiv-Autor-ID arXiv:0706.0001\n\nZum Beispiel sind Handle und DOI digitale Objektidentifikatoren, während ORCID und ArXiv-Autor-ID Beitragsidentifikatoren sind.\n\nViel Erfolg!",
+    "callUnavailable": "Ich kann gerade nicht sprechen. Versuchen Sie, mich später anzurufen.",
+    "call1": "Hey {playerName}! Sie brauchen Hilfe bei den Namenskonventionen? Hier sind einige Namenskonventionen, die Ihnen helfen könnten:\n\n→ Wählen Sie einen kurzen und aussagekräftigen Dateinamen: max. 32 Zeichen, beginnen Sie mit dem wichtigsten Element und verwenden Sie vordefinierte Abkürzungen, um die Zeichenanzahl zu begrenzen.\n\n→ Der Dateiname muss das Thema, das Datum und die Version enthalten. Vermeiden Sie Sonderzeichen, Satzzeichen und Akzente.\n\n→ Vermeiden Sie Leerzeichen zwischen Wörtern; verwenden Sie Unterstriche und Grossbuchstaben. Verwenden Sie standardisierte Datumsformate wie JJJJMMTT oder JJJJ-MM-TT.\n\n→ Fügen Sie einen vordefinierten Versionsindikator wie V05 oder _final für die endgültige Version ein.\n\nViel Erfolg und rufen Sie mich wieder an, wenn Sie Hilfe brauchen!",
+    "call2": "Hey {playerName}! Ich erkläre Ihnen das kurz am Telefon. Um Daten zu bereinigen, sollten Sie unnötige Felder entfernen und die Datenanalyse durch Standardisierung erleichtern.\n\nDafür können verschiedene Programme verwendet werden. Es hängt von der Art der Daten, der Menge, den verfügbaren Ressourcen und der Erfahrung des Teams ab. Einige Beispiele für kostenlose Tools sind: OpenRefine oder R\n\nWie bereinigt man Daten?\n\n→ Wesentliche Daten identifizieren (z. B. unnötige Felder löschen, die automatisch von der Datenerhebungssoftware hinzugefügt wurden)\n→ Doppelte Daten identifizieren und entfernen\n→ Leere Werte auflösen\n→ Einheitlichkeit der Daten sicherstellen (Daten desselben Typs sollten dieselbe Form haben)\n\nWichtig: Bewahren Sie immer eine Rohversion Ihrer Datei auf und halten Sie alle Bereinigungsschritte fest, um Transparenz und Reproduzierbarkeit zu gewährleisten!\n\nFügen Sie die richtige Datei zur Analysesoftware hinzu.\n\nViel Erfolg und rufen Sie mich zurück, wenn Sie Hilfe brauchen!",
+    "call3": "Hallo {playerName}! Ich kann Ihnen einige Informationen zu Dateiformaten geben. Ein offenes Format ist eine Datei, die von mehreren Programmen gelesen werden kann. Die Verwendung offener Formate dient zwei Hauptzielen:\n\n→ Den Zugang zu Ihren Dokumenten unabhängig von der verwendeten Software sicherstellen\n→ Die Langlebigkeit Ihrer Dokumente sicherstellen, damit sie auch dann zugänglich bleiben, wenn die zu ihrer Erstellung verwendete Software nicht mehr verfügbar ist\n\nIch sende Ihnen eine E-Mail mit zusätzlichen Informationen zu verschiedenen Formattypen und Dateiendungen. Das wird Ihnen helfen. Bis bald!",
+    "call4": "Hallo {playerName},\n\nWährend eines Forschungsprojekts wird eine grosse Menge an Daten erstellt, und es ist aus mehreren Gründen nicht möglich, alle zu archivieren/aufzubewahren:\n\n→ Kosten für die Archivierung\n→ Je grösser das Volumen der archivierten Daten, desto schwieriger ist es, sie zu finden\n→ Kosten für die Erstellung und Pflege von Metadaten\n\nDaher ist es notwendig, 4.2 den Datenwert zu identifizieren und die Datenaufbewahrung zu bestimmen\n\nSie fragen sich vielleicht, wie Sie auswählen sollten, welche Daten archiviert werden sollen? Das hängt von vielen Kriterien ab. Ich sende Ihnen die Datei mit allen Details.\n\nViel Erfolg und rufen Sie mich zurück, wenn Sie Hilfe brauchen!",
+    "call5": "Hey {playerName},\n\nIch rufe an, um Ihnen weitere Informationen zu geben.\n\nEs ist wichtig, 4.3 den gespeicherten Daten geeignete Metadaten hinzuzufügen, um ihre Auffindbarkeit zu gewährleisten. Metadaten werden üblicherweise als \"Daten über Daten\" beschrieben.\n\nEs gibt verschiedene Arten von Metadaten:\n→ Beschreibende Metadaten: Titel, Thema, Datenersteller...\n→ Administrative Metadaten: Dateiformate, Versionen, Wiederverwendungsoptionen...\n→ Strukturelle Metadaten: Beziehungen zu anderen Entitäten, Variablenliste...\n\nIch sende Ihnen ein Beispiel, nämlich die Metadaten des Projekts Ihrer Kollegin im XML-Format. Rufen Sie mich zurück, sobald Sie es erhalten haben.",
+    "call6": "Danke, dass Sie zurückgerufen haben {playerName},\n\nIm Gegensatz zur Datendokumentation – die nur für Menschen lesbar sein soll – müssen Metadaten maschinenlesbar sein, damit sie online auffindbar sind. Metadaten werden daher oft in XML umgewandelt.\n\nEs gibt Tools, die Teams beim Schreiben von Metadaten in XML helfen können, wie z. B. den Datacite Metadata Generator.\n\nMetadaten sind standardisierte Informationen. Es gibt viele Schemata, sowohl fachspezifische als auch allgemeine.\n\nIch hoffe, das hat die Sache geklärt! Ich muss jetzt los, die Weihnachtseinkäufe erledigen sich nicht von selbst.\n\nAch, und bevor ich es vergesse: Addieren Sie nur die Zahlen der Jahresangaben, um weiterzumachen – bis später!",
+    "call7": "Hallo {playerName},\n\nJa, ich erinnere mich, dass sie tatsächlich zwischen mehreren Repositorien gezögert haben…\n\nLass mich nachdenken…\n\n… Ich erinnere mich, am Ende hat das Forschungsteam ein Repository gewählt, das kostenlos ist und dessen Server sich alle in der Schweiz befinden. Öffnen Sie den Vergleich der drei Repositorien, um die richtige Antwort zu finden.\n\nAddieren Sie 70 zur Nummer (#) des gewählten Repositoriums.\n\nViel Erfolg!",
+    "call8": "Jack am Apparat.\n\nAh, ja {playerName}, die Diskussion über Creative Commons und Urheberrecht. Ich erinnere mich…\n\nAlso zunächst zur Begriffserklärung: Creative-Commons-Lizenzen sind Verbreitungslizenzen, die es ermöglichen, bestimmte Nutzungsrechte an veröffentlichten Materialien im Voraus einzuräumen. Sie ergänzen das Urheberrecht der Autorinnen und Autoren.\n\nIch schicke Ihnen eine kleine Übersicht mit den Lizenzoptionen. Sie enthält Icons, rechtliche Formulierungen und all das.\n\nSie werden wissen, welche passt, wenn Sie sie sehen.\n\nViel Erfolg!",
+    "call9": "Hey {playerName}, ich habe gehört, dass Sie Hilfe bei Identifikatoren brauchen? Ich helfe Ihnen gerne.\n\nEs gibt zwei Haupttypen von Identifikatoren:\n→ Objektidentifikatoren für Publikationen und Daten\n→ Beitragsidentifikatoren für Autorinnen, Autoren und Organisationen\n\nHier sind einige Beispiele für Identifikatoren:\n→ Handle 20.1000/100\n→ DOI doi:10.1000/182\n→ ORCID 0000-0002-1825-0097\n→ ArXiv-Autor-ID arXiv:0706.0001\n\nZum Beispiel sind Handle und DOI digitale Objektidentifikatoren, während ORCID und ArXiv-Autor-ID Beitragsidentifikatoren sind.\n\nViel Erfolg!",
     "hoverCall": "Anrufen",
     "codeAlreadyFound": "Bereits gefunden!",
     "codeFound": "Richtiger Code!",
     "invalidCode": "Falscher Code!",
-    "messageBodylvl1": "Hallo {playerName},\n\nDer DMP oder Datenmanagementplan ist ein Dokument, das in der Vorbereitungsphase eines Forschungsprojekts erstellt und im Laufe des Projekts ergänzt wird.\n\nEr hilft dabei, alle Phasen des Datenlebenszyklus zu organisieren und vorwegzunehmen. Er erklärt, wie die Daten des Projekts verwaltet werden, von der Erstellung bis zur Weitergabe und Archivierung.\n\nDie verschiedenen Schritte, die du im Laufe deiner Nachforschungen entdecken wirst, helfen dir zu verstehen, wie jeder Abschnitt des DMP korrekt auszufüllen ist.\n\nViel Erfolg!",
-    "messageBodylvl2": "Hey {playerName},\n\nEine unserer Kolleginnen hat während des Bereinigungsprozesses mehrere Versionen der durch den Fragebogen erhobenen Daten aufgezeichnet. Ich sende sie dir jetzt. Kannst du sie bitte analysieren? Welche der drei ist die sauberste? Welche können wir zur Analysesoftware hinzufügen?\n\nWarte, ich rufe dich an, das ist einfacher zu erklären.",
-    "messageBodylvl3": "Hallo {playerName},\n\nKurz gesagt: Wenn Forschungsteams ihre Daten archivieren möchten, sollten sie darauf achten, Formate zu wählen, die:\n\n→ offen\n→ nicht verschlüsselt\n→ unkomprimiert\n→ in ihrem Fachgebiet gebräuchlich und anerkannt\n→ interoperabel\n\nsind. Ich hoffe, das hat dir geholfen! Bis bald!",
-    "messageBodylvl4": "Hallo {playerName},\n\nIch bin gerade ins Flugzeug gestiegen! Ich kann es kaum erwarten, dort anzukommen *.*  Aber ich habe vergessen, dich zu warnen: Informationen zur Datenweitergabe findest du auf Rachels Computer in ihrem Büro (Nummer 47). Schöne Feiertage! P.S: Vergiss nicht, nach Hause zu gehen, bevor das Gebäude schliesst ;)",
+    "messageBodylvl1": "Hallo {playerName},\n\nDer DMP oder Datenmanagementplan ist ein Dokument, das in der Vorbereitungsphase eines Forschungsprojekts erstellt und im Laufe des Projekts ergänzt wird.\n\nEr hilft dabei, alle Phasen des Datenlebenszyklus zu organisieren und vorzuwegnehmen. Er erklärt, wie die Daten des Projekts verwaltet werden, von der Erstellung bis zur Weitergabe und Archivierung.\n\nDie verschiedenen Schritte, die Sie im Laufe Ihrer Nachforschungen entdecken werden, helfen Ihnen zu verstehen, wie jeder Abschnitt des DMP korrekt auszufüllen ist.\n\nViel Erfolg!",
+    "messageBodylvl2": "Hey {playerName},\n\nEine unserer Kolleginnen hat während des Bereinigungsprozesses mehrere Versionen der durch den Fragebogen erhobenen Daten aufgezeichnet. Ich sende sie Ihnen jetzt. Können Sie sie bitte analysieren? Welche der drei ist die sauberste? Welche können wir zur Analysesoftware hinzufügen?\n\nWarte, ich rufe Sie an, das ist einfacher zu erklären.",
+    "messageBodylvl3": "Hallo {playerName},\n\nKurz gesagt: Wenn Forschungsteams ihre Daten archivieren möchten, sollten sie darauf achten, Formate zu wählen, die:\n\n→ offen\n→ nicht verschlüsselt\n→ unkomprimiert\n→ in ihrem Fachgebiet gebräuchlich und anerkannt\n→ interoperabel\n\nsind. Ich hoffe, das hat Ihnen geholfen! Bis bald!",
+    "messageBodylvl4": "Hallo {playerName},\n\nIch bin gerade ins Flugzeug gestiegen! Ich kann es kaum erwarten, dort anzukommen *.* Aber ich habe vergessen, Sie zu warnen: Informationen zur Datenweitergabe finden Sie auf Rachels Computer in ihrem Büro (Nummer 47). Schöne Feiertage! P.S: Vergessen Sie nicht, nach Hause zu gehen, bevor das Gebäude schliesst ;)",
     "incomingCall": "Eingehender Anruf",
     "outgoingCallRequired": "Anruf erforderlich",
     "answerCall": "Tippen, um anzunehmen",
@@ -64,7 +64,7 @@
     "placeholderOutgoing": "Anruf tätigen",
     "answerFirst": "Zuerst Anruf annehmen",
     "callFirst": "Zuerst anrufen",
-    "mustCallFirst": "Du musst zuerst den ausstehenden Anruf bearbeiten!",
+    "mustCallFirst": "Sie müssen zuerst den ausstehenden Anruf bearbeiten!",
     "endCall": "Anruf beenden",
     "media": "Mobiltelefon",
     "connection": "Verbunden"
@@ -117,12 +117,12 @@
   },
   "tutorial": {
     "title": "Tutorial",
-    "subtitle": "In diesem Spiel entdeckst du die Grundlagen des Forschungsdatenmanagements (FDM) anhand einer Reihe von Aufgaben. Deine Mission: Vervollständige deine Roadmap, um eine einfache Schritt-für-Schritt-Anleitung zum Forschungsdatenmanagement zu erhalten.",
-    "instructions": "Beobachte deine Umgebung genau, achte auf Zahlen, anklickbare Elemente und Hinweise, die dir helfen, im Spiel voranzukommen und die Datenmanagementaufgaben zu identifizieren, die deine Roadmap vervollständigen.",
-    "step1": "Mit deinem Telefon kannst du die gefundenen Zahlen eingeben und um Hilfe bitten.",
-    "step2": "Ein Team aus drei Spezialistinnen und Spezialisten begleitet dich auf deiner Mission: Santiago, der Informationsspezialist der Institutsbibliothek, Inès, eine IT-Spezialistin, und Jack, der Rechtsexperte des Instituts.",
-    "step3": "Wenn du auf die Roadmap klickst, siehst du die bereits abgeschlossenen Schritte des Datenlebenszyklus.",
-    "step4": "Du bist jetzt bereit, die Herausforderung von Mission FDM anzunehmen! Viel Spass!",
+    "subtitle": "In diesem Spiel entdecken Sie die Grundlagen des Forschungsdatenmanagements (FDM) anhand einer Reihe von Aufgaben. Ihre Mission: Vervollständigen Sie Ihre Roadmap, um eine einfache Schritt-für-Schritt-Anleitung zum Forschungsdatenmanagement zu erhalten.",
+    "instructions": "Beobachten Sie Ihre Umgebung genau, achten Sie auf Zahlen, anklickbare Elemente und Hinweise, die Ihnen helfen, im Spiel voranzukommen und die Datenmanagementaufgaben zu identifizieren, die Ihre Roadmap vervollständigen.",
+    "step1": "Mit Ihrem Telefon können Sie die gefundenen Zahlen eingeben und um Hilfe bitten.",
+    "step2": "Ein Team aus drei Spezialistinnen und Spezialisten begleitet Sie auf Ihrer Mission: Santiago, der Informationsspezialist der Institutsbibliothek, Inès, eine IT-Spezialistin, und Jack, der Rechtsexperte des Instituts.",
+    "step3": "Wenn Sie auf die Roadmap klicken, sehen Sie die bereits abgeschlossenen Schritte des Datenlebenszyklus.",
+    "step4": "Sie sind jetzt bereit, die Herausforderung von Mission FDM anzunehmen! Viel Spass!",
     "backToStart": "Zurück"
   },
   "riddle": {
@@ -130,7 +130,7 @@
   },
   "riddle1": {
     "title1": "1.1 Den DMP schreiben",
-    "question1": "Versuche dieses Rätsel zu lösen, um die ersten Schritte der Roadmap zu finden. Nutze das, was du hier siehst, um die Antwort zu finden.\n\nGib in jedes Eingabefeld einen der DMP-Schritte ein, die du auf dem Bild sehen kannst. Du musst 1.1., B., C., E., F. und G. nicht in deinen Antworten verwenden.\n\nViel Erfolg!",
+    "question1": "Versuchen Sie dieses Rätsel zu lösen, um die ersten Schritte der Roadmap zu finden. Nutzen Sie das, was Sie hier sehen, um die Antwort zu finden.\n\nGeben Sie in jedes Eingabefeld einen der DMP-Schritte ein, die Sie auf dem Bild sehen können. Sie müssen 1.1., B., C., E., F. und G. nicht in Ihren Antworten verwenden.\n\nViel Erfolg!",
     "placeholder1": "Antwort eingeben",
     "placeholder2_1": "1.1.",
     "placeholder2_2": "B.",
@@ -147,13 +147,13 @@
       "Daten teilen und publizieren"
     ],
     "correct1": "Richtig, gut gemacht!",
-    "incorrect1": "Falsch, versuch es nochmal! Du musst 1.1., B., C., E., F. und G. nicht in deinen Antworten verwenden."
+    "incorrect1": "Falsch, versuchen Sie es nochmal! Sie müssen 1.1., B., C., E., F. und G. nicht in Ihren Antworten verwenden."
   },
   "riddle2": {
     "title": "Fehler",
-    "incorrect77": "Falsch, diese Datei entspricht nicht den besten Namenskonventionen. Es wird nicht empfohlen, Satzzeichen in Dateinamen zu verwenden. Versuch es nochmal!",
-    "incorrect82": "Falsch, diese Datei entspricht nicht den besten Namenskonventionen. Es gibt eine bessere Methode, um die Versionen einer Datei anzugeben. Versuch es nochmal!",
-    "incorrect25": "Falsch, diese Datei entspricht nicht den besten Namenskonventionen. Du solltest Sonderzeichen und Leerzeichen zwischen Wörtern vermeiden. Versuch es nochmal!"
+    "incorrect77": "Falsch, diese Datei entspricht nicht den besten Namenskonventionen. Es wird nicht empfohlen, Satzzeichen in Dateinamen zu verwenden. Versuchen Sie es nochmal!",
+    "incorrect82": "Falsch, diese Datei entspricht nicht den besten Namenskonventionen. Es gibt eine bessere Methode, um die Versionen einer Datei anzugeben. Versuchen Sie es nochmal!",
+    "incorrect25": "Falsch, diese Datei entspricht nicht den besten Namenskonventionen. Sie sollten Sonderzeichen und Leerzeichen zwischen Wörtern vermeiden. Versuchen Sie es nochmal!"
   },
   "riddle3": {
     "title": "Fehler",
@@ -162,151 +162,151 @@
   },
   "riddle4": {
     "title": "Fehler",
-    "incorrect": "Falsche Antwort, versuch es nochmal!"
+    "incorrect": "Falsche Antwort, versuchen Sie es nochmal!"
   },
   "riddle5": {
     "title": "Fehler",
-    "incorrect93": "Falsche Antwort! In diesem Fall müssen sowohl der wissenschaftliche Artikel als auch die Daten selbst zugänglich sein. Das Forschungsteam wollte die guten Praktiken des Open Access befolgen. Versuch es nochmal!",
-    "incorrect94": "Falsche Antwort! In diesem Fall hat das Forschungsteam die Daten nicht nur auf Anfrage zugänglich gemacht, da dies nicht den guten Praktiken des Open Access entspricht. Versuch es nochmal!",
-    "incorrect95": "Falsche Antwort! In diesem Fall sind die Daten nicht durch ein Embargo geschützt. Embargos werden typischerweise verwendet, wenn eine Publikation vor der Veröffentlichung der zugrundeliegenden Daten erscheint. Dies kann der Fall sein, wenn die Daten mit kommerziellen Nutzungen verbunden sind, wie z. B. einem Patent. Versuch es nochmal!"
+    "incorrect93": "Falsche Antwort! In diesem Fall müssen sowohl der wissenschaftliche Artikel als auch die Daten selbst zugänglich sein. Das Forschungsteam wollte die guten Praktiken des Open Access befolgen. Versuchen Sie es nochmal!",
+    "incorrect94": "Falsche Antwort! In diesem Fall hat das Forschungsteam die Daten nicht nur auf Anfrage zugänglich gemacht, da dies nicht den guten Praktiken des Open Access entspricht. Versuchen Sie es nochmal!",
+    "incorrect95": "Falsche Antwort! In diesem Fall sind die Daten nicht durch ein Embargo geschützt. Embargos werden typischerweise verwendet, wenn eine Publikation vor der Veröffentlichung der zugrundeliegenden Daten erscheint. Dies kann der Fall sein, wenn die Daten mit kommerziellen Nutzungen verbunden sind, wie z. B. einem Patent. Versuchen Sie es nochmal!"
   },
   "riddle6": {
     "title": "Fehler",
-    "incorrect": "Falsche Antwort, versuch es nochmal!"
+    "incorrect": "Falsche Antwort, versuchen Sie es nochmal!"
   },
   "hints": {
     "checkRoadmap": "Überprüfe deine Roadmap"
   },
   "level1": {
     "hints": {
-      "first": "Brauchst du eine kleine Pause? Ein Kaffee könnte helfen.",
-      "second": "Zähle die Post-it-Karten auf dem Schreibtisch.",
-      "third": "Schau dir das Abgabedatum des DMP an.",
-      "fourth": "Es ist eine verschlüsselte Nachricht! Der Hinweis steht direkt dort, wo du die Lösung eingibst. Verwende den Titel als Entschlüsselungsschlüssel. Gib nochmals den Code 29 ein und versuche ihn zu entschlüsseln.",
-      "fifth": "Hast du den Datei-Explorer geöffnet? Versuch ihn zu öffnen.",
+      "first": "Brauchen Sie eine kleine Pause? Ein Kaffee könnte helfen.",
+      "second": "Zählen Sie die Post-it-Karten auf dem Schreibtisch.",
+      "third": "Schauen Sie sich das Abgabedatum des DMP an.",
+      "fourth": "Es ist eine verschlüsselte Nachricht! Der Hinweis steht direkt dort, wo Sie die Lösung eingeben. Verwenden Sie den Titel als Entschlüsselungsschlüssel. Geben Sie nochmals den Code 29 ein und versuchen Sie ihn zu entschlüsseln.",
+      "fifth": "Haben Sie den Datei-Explorer geöffnet? Versuchen Sie ihn zu öffnen.",
       "sixth": "Einer der Ordner scheint besonders interessant zu sein.",
-      "seventh": "Welche Datei entspricht am besten den Namenskonventionen? Ruf Santiago an, um Hilfe zu erhalten.",
-      "eigth": "Du hast deine Projektstruktur organisiert... Stelle jetzt sicher, dass der richtige Zugang gewährt wird, um fortzufahren."
+      "seventh": "Welche Datei entspricht am besten den Namenskonventionen? Rufen Sie Santiago an, um Hilfe zu erhalten.",
+      "eigth": "Sie haben Ihre Projektstruktur organisiert... Stellen Sie jetzt sicher, dass der richtige Zugang gewährt wird, um fortzufahren."
     },
     "solutions": {
-      "first": "Gib die Zahl 8 ein (auf der Kaffeetasse).",
-      "second": "Es gibt 4 grosse Post-it-Karten auf dem Schreibtisch -> Gib die Zahl 4 ein.",
-      "third": "Gib die Zahl 29 ein (im Notizbuch).",
-      "fourth": "Gib nochmals die Zahl 29 ein und löse es mit dieser Lösung:\nDen DMP schreiben\nDatenerhebung\nDokumentation und Metadaten\nSpeicher- und Backup-strategien\nAuswahlkriterien für die Archivierung\nDaten teilen und publizieren",
-      "fifth": "Klicke auf das Datei-Explorer-Symbol auf dem Bildschirm, um ihn zu öffnen.",
-      "sixth": "Klicke auf den Ordner \"Folder_Click_Old-Versions\", um ihn zu öffnen.",
-      "seventh": "OFS_Continental_20200628_V01.png -> Gib die Zahl 28 ein.",
-      "eigth": "Klicke auf den Ordner \"Zugriff_gewährt\", um zum nächsten Level zu gelangen."
+      "first": "Geben Sie die Zahl 8 ein (auf der Kaffeetasse).",
+      "second": "Es gibt 4 grosse Post-it-Karten auf dem Schreibtisch -> Geben Sie die Zahl 4 ein.",
+      "third": "Geben Sie die Zahl 29 ein (im Notizbuch).",
+      "fourth": "Geben Sie nochmals die Zahl 29 ein und lösen Sie es mit dieser Lösung:\nDen DMP schreiben\nDatenerhebung\nDokumentation und Metadaten\nSpeicher- und Backup-strategien\nAuswahlkriterien für die Archivierung\nDaten teilen und publizieren",
+      "fifth": "Klicken Sie auf das Datei-Explorer-Symbol auf dem Bildschirm, um ihn zu öffnen.",
+      "sixth": "Klicken Sie auf den Ordner \"Folder_Click_Old-Versions\", um ihn zu öffnen.",
+      "seventh": "OFS_Continental_20200628_V01.png -> Geben Sie die Zahl 28 ein.",
+      "eigth": "Klicken Sie auf den Ordner \"Zugriff_gewährt\", um zum nächsten Level zu gelangen."
     }
   },
   "level2": {
     "hints": {
-      "first": "Schlüssel können dir helfen, Türen zu öffnen.",
+      "first": "Schlüssel können Ihnen helfen, Türen zu öffnen.",
       "second": "Ein bisschen Mathematik wird sicher notwendig sein.",
-      "third": "Schau dir die Namen der Tabellenblätter an – was könnte diese Datei enthalten... ... + diese Datei?",
+      "third": "Schauen Sie sich die Namen der Tabellenblätter an – was könnte diese Datei enthalten... ... + diese Datei?",
       "fourth": "Manchmal sind Beispiele der beste Weg, um etwas zu verstehen.",
       "fifth": "Der Empfangstresen ist ein guter Ausgangspunkt.",
       "sixth": "Ein bisschen Mathematik wird sicher notwendig sein.",
       "seventh": "Ist da nicht etwas hinter der Pflanze?",
-      "eighth": "Du wirst ein bisschen laufen müssen."
+      "eighth": "Sie werden ein bisschen laufen müssen."
     },
     "solutions": {
-      "first": "Gib die Zahl 9 ein (im Schlüsselkasten).",
-      "second": "Gib die Zahl 15 ein (Backup-Zahl: 7,5 x 2).",
-      "third": "Gib die Zahl 31 ein (Addition beider Tabellenblattnamen -> 15 + 16).",
-      "fourth": "Gib die Zahl 1 ein (Beispie1.odt).",
-      "fifth": "Gib die Zahl 36 ein (R36EPTION am Empfangstresen).",
-      "sixth": "Gib die Zahl 7 ein (3 + 2 + 1 + 1 + 0 = 7).",
-      "seventh": "Klicke auf die Post-it-Karte hinter der Pflanze, um sie zu lesen.",
-      "eighth": "Gib die Zahl 11 ein (11. Stockwerk)."
+      "first": "Geben Sie die Zahl 9 ein (im Schlüsselkasten).",
+      "second": "Geben Sie die Zahl 15 ein (Backup-Zahl: 7,5 x 2).",
+      "third": "Geben Sie die Zahl 31 ein (Addition beider Tabellenblattnamen -> 15 + 16).",
+      "fourth": "Geben Sie die Zahl 1 ein (Beispie1.odt).",
+      "fifth": "Geben Sie die Zahl 36 ein (R36EPTION am Empfangstresen).",
+      "sixth": "Geben Sie die Zahl 7 ein (3 + 2 + 1 + 1 + 0 = 7).",
+      "seventh": "Klicken Sie auf die Post-it-Karte hinter der Pflanze, um sie zu lesen.",
+      "eighth": "Geben Sie die Zahl 11 ein (11. Stockwerk)."
     }
   },
   "level3": {
     "hints": {
       "first": "Die Bücher könnten interessant sein.",
       "second": "Das Kapitel aus dem Buch sieht interessant aus.",
-      "third": "Hast du etwas für den Monat geplant?",
+      "third": "Haben Sie etwas für den Monat geplant?",
       "fourth": "Manchmal muss man mit der Technik ein wenig geduldig sein.",
-      "fifth": "Hast du alle Dateien geöffnet, die Inès dir geschickt hat?",
-      "sixth": "Es sieht so aus, als müsstest du eine Datei + hinzufügen, um die Analyse zu starten.",
-      "seventh": "Welche Computermarke bevorzugst du?",
+      "fifth": "Haben Sie alle Dateien geöffnet, die Inès Ihnen geschickt hat?",
+      "sixth": "Es sieht so aus, als müssten Sie eine Datei + hinzufügen, um die Analyse zu starten.",
+      "seventh": "Welche Computermarke bevorzugen Sie?",
       "eighth": "Die Infografik zeigt die Anzahl der aufgeführten Hotels.",
-      "ninth": "Hast du die Pinnwand hinter dem Schreibtisch deiner Kollegin bemerkt?",
-      "tenth": "Nimm Kontakt mit der IT-Abteilung auf."
+      "ninth": "Haben Sie die Pinnwand hinter dem Schreibtisch Ihrer Kollegin bemerkt?",
+      "tenth": "Nehmen Sie Kontakt mit der IT-Abteilung auf."
     },
     "solutions": {
-      "first": "Gib die Zahl 17 ein (der Buchtitel in römischen Zahlen).",
-      "second": "Gib die Zahl 33 ein (die Kapitelnummer im Buch).",
-      "third": "Klicke auf den 19. des Monats im Kalender, um fortzufahren.",
-      "fourth": "Hab Geduld, manchmal braucht die Technik etwas länger zum Laden. Es wird automatisch in wenigen Sekunden geladen.",
-      "fifth": "Gib die Zahlen 57, 58 und 59 ein (die drei Dateien, die Inès dir geschickt hat).",
-      "sixth": "Gib die Zahl 77 ein (die richtige Datei (58) + die Nummer des PCs (19)).",
-      "seventh": "Gib die Zahl 22 ein (\"Computermarke\" auf dem Schreibtisch).",
-      "eighth": "Gib die Zahl 64 ein (die Zahl ist fett auf der Infografik geschrieben).",
-      "ninth": "Klicke auf die Post-it-Karte auf der Pinnwand, um sie zu lesen.",
-      "tenth": "Gib die Zahl 99 ein (die Telefonnummer der IT-Abteilung auf der Post-it-Karte)."
+      "first": "Geben Sie die Zahl 17 ein (der Buchtitel in römischen Zahlen).",
+      "second": "Geben Sie die Zahl 33 ein (die Kapitelnummer im Buch).",
+      "third": "Klicken Sie auf den 19. des Monats im Kalender, um fortzufahren.",
+      "fourth": "Haben Sie Geduld, manchmal braucht die Technik etwas länger zum Laden. Es wird automatisch in wenigen Sekunden geladen.",
+      "fifth": "Geben Sie die Zahlen 57, 58 und 59 ein (die drei Dateien, die Inès Ihnen geschickt hat).",
+      "sixth": "Geben Sie die Zahl 77 ein (die richtige Datei (58) + die Nummer des PCs (19)).",
+      "seventh": "Geben Sie die Zahl 22 ein (\"Computermarke\" auf dem Schreibtisch).",
+      "eighth": "Geben Sie die Zahl 64 ein (die Zahl ist fett auf der Infografik geschrieben).",
+      "ninth": "Klicken Sie auf die Post-it-Karte auf der Pinnwand, um sie zu lesen.",
+      "tenth": "Geben Sie die Zahl 99 ein (die Telefonnummer der IT-Abteilung auf der Post-it-Karte)."
     }
   },
   "level4": {
     "hints": {
       "first": "Die Bildschirme könnten nützlich sein.",
-      "second": "Ruf Inès an, um Hilfe zu erhalten.",
-      "third": "Inès hat dir einige Dateien geschickt – hast du sie überprüft?",
-      "fourth": "Inès hat dir einige Dateien geschickt – hast du sie überprüft?",
-      "fifth": "Finde alle Zahlen in der Spalte \"zulässige Formate\" und addiere sie.",
+      "second": "Rufen Sie Inès an, um Hilfe zu erhalten.",
+      "third": "Inès hat Ihnen einige Dateien geschickt – haben Sie sie überprüft?",
+      "fourth": "Inès hat Ihnen einige Dateien geschickt – haben Sie sie überprüft?",
+      "fifth": "Finden Sie alle Zahlen in der Spalte \"zulässige Formate\" und addieren Sie sie.",
       "sixth": "Ein Logo kann manchmal nützliche Informationen enthalten.",
-      "seventh": "Ruf Santiago an, um Hilfe zu erhalten.",
-      "eighth": "Santiago hat dir eine E-Mail geschickt – hast du sie überprüft?",
+      "seventh": "Rufen Sie Santiago an, um Hilfe zu erhalten.",
+      "eighth": "Santiago hat Ihnen eine E-Mail geschickt – haben Sie sie überprüft?",
       "ninth": "Einige Buchstaben sind hervorgehoben – was könnten sie bedeuten?",
-      "tenth": "Santiago hat dir eine E-Mail geschickt – hast du sie überprüft?",
-      "eleventh": "Ruf Santiago zurück, um einige Informationen zu erhalten.",
-      "twelfth": "Santiago hat dir während des Anrufs einen Hinweis gegeben – hast du ihn überprüft? (Hinweis: 2020 = 2 + 0 + 2 + 0 = 4)",
-      "thirteenth": "Anne hat dir in der Nachricht die Nummer des Büros mitgeteilt, wo du Rachels Computer findest. Um die Nachricht erneut zu lesen, gib die Zahl 99 ein."
+      "tenth": "Santiago hat Ihnen eine E-Mail geschickt – haben Sie sie überprüft?",
+      "eleventh": "Rufen Sie Santiago zurück, um einige Informationen zu erhalten.",
+      "twelfth": "Santiago hat Ihnen während des Anrufs einen Hinweis gegeben – haben Sie ihn überprüft? (Hinweis: 2020 = 2 + 0 + 2 + 0 = 4)",
+      "thirteenth": "Anne hat Ihnen in der Nachricht die Nummer des Büros mitgeteilt, wo Sie Rachels Computer finden. Um die Nachricht erneut zu lesen, geben Sie die Zahl 99 ein."
     },
     "solutions": {
-      "first": "Klicke auf das Ordner-Explorer-Symbol auf dem Bildschirm, um ihn zu öffnen.",
-      "second": "Klicke auf das Symbol, um Inès anzurufen und Hilfe zu erhalten.",
-      "third": "Gib die Zahl 4 ein (FORM4T).",
-      "fourth": "Gib die Zahl 51 ein (EXTEN51ONS).",
-      "fifth": "Gib die Zahl 23 ein (5 + 4 + 2 + 3 + 3 + 3 + 3 = 23).",
-      "sixth": "Gib die Zahl 81 ein (Seite des Schreibtisches).",
-      "seventh": "Klicke auf das Symbol, um Santiago anzurufen und Hilfe zu erhalten.",
-      "eighth": "Gib die Zahl 1 ein (EINE NEUE NACHRICHT).",
-      "ninth": "Gib die Zahl 61 ein (lies die hervorgehobenen Buchstaben, um die Zahl einundsechzig zu finden).",
-      "tenth": "Klicke auf das Nachrichten-Symbol, um die E-Mail von Santiago zu lesen.",
-      "eleventh": "Klicke auf das Symbol, um Santiago anzurufen und Informationen zu erhalten.",
-      "twelfth": "Gib die Zahl 14 ein (alle Zahlen der Jahresangaben addiert).",
-      "thirteenth": "Gib die Zahl 47 ein (die Büronummer, wo du Rachels Computer findest)."
+      "first": "Klicken Sie auf das Ordner-Explorer-Symbol auf dem Bildschirm, um ihn zu öffnen.",
+      "second": "Klicken Sie auf das Symbol, um Inès anzurufen und Hilfe zu erhalten.",
+      "third": "Geben Sie die Zahl 4 ein (FORM4T).",
+      "fourth": "Geben Sie die Zahl 51 ein (EXTEN51ONS).",
+      "fifth": "Geben Sie die Zahl 23 ein (5 + 4 + 2 + 3 + 3 + 3 + 3 = 23).",
+      "sixth": "Geben Sie die Zahl 81 ein (Seite des Schreibtisches).",
+      "seventh": "Klicken Sie auf das Symbol, um Santiago anzurufen und Hilfe zu erhalten.",
+      "eighth": "Geben Sie die Zahl 1 ein (EINE NEUE NACHRICHT).",
+      "ninth": "Geben Sie die Zahl 61 ein (lesen Sie die hervorgehobenen Buchstaben, um die Zahl einundsechzig zu finden).",
+      "tenth": "Klicken Sie auf das Nachrichten-Symbol, um die E-Mail von Santiago zu lesen.",
+      "eleventh": "Klicken Sie auf das Symbol, um Santiago anzurufen und Informationen zu erhalten.",
+      "twelfth": "Geben Sie die Zahl 14 ein (alle Zahlen der Jahresangaben addiert).",
+      "thirteenth": "Geben Sie die Zahl 47 ein (die Büronummer, wo Sie Rachels Computer finden)."
     }
   },
   "level5": {
     "hints": {
       "first": "Nicht alle Zahlen verstecken sich in Dateien – manche stecken in Namen.",
       "second": "Die Geschichte ist auf dem Bildschirm eingraviert.",
-      "third": "Ruf Santiago an, um Hilfe zu erhalten.",
-      "fourth": "Santiago hat erklärt, wie das Forschungsteam das Repositorium ausgewählt hat – hast du es überprüft?",
-      "fifth": "Jack hat dir eine E-Mail geschickt – hast du sie überprüft?",
-      "sixth": "Jack hat erklärt, wie das Forschungsteam die Zugangsbedingungen gewählt hat – hast du es überprüft?",
-      "seventh": "Ruf Jack an, um Hilfe zu erhalten.",
-      "eighth": "Jack hat dir eine E-Mail geschickt – hast du die angehängte PDF-Datei gelesen?",
-      "ninth": "Welche der Urheberrechtslizenzen passt am besten zu den Bedürfnissen des Forschungsteams?",
-      "tenth": "Ruf Inès an, um Hilfe zu erhalten.",
-      "eleventh": "Welcher Identifikator entspricht dem eines Datensatzes? Inès hat es dir während des Anrufs erklärt. Ruf sie zurück, wenn du weitere Informationen benötigst.",
+    "third": "Rufen Sie Santiago an, um Hilfe zu erhalten.",
+      "fourth": "Santiago hat erklärt, wie das Forschungsteam das Repositorium ausgewählt hat – haben Sie es überprüft?",
+      "fifth": "Jack hat Ihnen eine E-Mail geschickt – haben Sie sie überprüft?",
+      "sixth": "Jack hat erklärt, wie das Forschungsteam die Zugangsbedingungen gewählt hat – haben Sie es überprüft?",
+      "seventh": "Rufen Sie Jack an, um Hilfe zu erhalten.",
+      "eighth": "Jack hat Ihnen eine E-Mail geschickt – haben Sie die angehängte PDF-Datei gelesen?",
+      "ninth": "Welche der Urheberrechtslizenzen passt am besten zu den Bedürf nissen des Forschungsteams?",
+      "tenth": "Rufen Sie Inès an, um Hilfe zu erhalten.",
+      "eleventh": "Welcher Identifikator entspricht dem eines Datensatzes? Inès hat es Ihnen während des Anrufs erklärt. Rufen Sie sie zurück, wenn Sie weitere Informationen benötigen.",
       "twelfth": "Hat Rachel auf dem Tablet geschrieben? Das sieht interessant aus..."
     },
     "solutions": {
-      "first": "Gib die Zahl 3 ein (re3data.org auf dem Bildschirm).",
-      "second": "Gib die Zahl 19 ein (CHICAGO COVID-19 RESPONSE auf dem Bildschirm).",
-      "third": "Ruf Santiago an, um Hilfe zu erhalten.",
-      "fourth": "Gib die Zahl 71 ein (einziges Repositorium mit Servern in der Schweiz und kostenlos).",
-      "fifth": "Klicke auf Jacks Nachricht, um die E-Mail zu lesen.",
-      "sixth": "Gib die Zahl 96 ein (Daten sind frei zugänglich und können von jedem abgerufen werden).",
-      "seventh": "Ruf Jack an, um Hilfe zu erhalten.",
-      "eighth": "Gib die Zahl 8 ein (CopyEIGHT.pdf statt copyright).",
-      "ninth": "Gib die Zahl 6 ein (diese Lizenz ermöglicht die Wiederverwendung der Daten unter der Bedingung, dass die Urheber genannt werden).",
-      "tenth": "Ruf Inès an, um Hilfe zu erhalten.",
-      "eleventh": "Gib die Zahl 84 ein (DOI ist korrekt).",
-      "twelfth": "Klicke auf das Tablet, um zum nächsten Level zu gelangen."
+      "first": "Geben Sie die Zahl 3 ein (re3data.org auf dem Bildschirm).",
+      "second": "Geben Sie die Zahl 19 ein (CHICAGO COVID-19 RESPONSE auf dem Bildschirm).",
+      "third": "Rufen Sie Santiago an, um Hilfe zu erhalten.",
+      "fourth": "Geben Sie die Zahl 71 ein (einziges Repositorium mit Servern in der Schweiz und kostenlos).",
+      "fifth": "Klicken Sie auf Jacks Nachricht, um die E-Mail zu lesen.",
+      "sixth": "Geben Sie die Zahl 96 ein (Daten sind frei zugänglich und können von jedem abgerufen werden).",
+      "seventh": "Rufen Sie Jack an, um Hilfe zu erhalten.",
+      "eighth": "Geben Sie die Zahl 8 ein (CopyEIGHT.pdf statt copyright).",
+      "ninth": "Geben Sie die Zahl 6 ein (diese Lizenz ermöglicht die Wiederverwendung der Daten unter der Bedingung, dass die Urheber genannt werden).",
+      "tenth": "Rufen Sie Inès an, um Hilfe zu erhalten.",
+      "eleventh": "Geben Sie die Zahl 84 ein (DOI ist korrekt).",
+      "twelfth": "Klicken Sie auf das Tablet, um zum nächsten Level zu gelangen."
     }
   },
   "level6": {
@@ -314,19 +314,19 @@
       "first": "Um sich Dinge zu merken, ist es manchmal hilfreich, sie aufzuschreiben.",
       "second": "Manchmal muss man zwischen den Zeilen lesen.",
       "third": "Ich habe das Gefühl, dass sich irgendwo noch zusätzliche Informationen verstecken...",
-      "fourth": "Addiere die Aufrufe und Downloads aller Versionen."
+      "fourth": "Addieren Sie die Aufrufe und Downloads aller Versionen."
     },
     "solutions": {
-      "first": "Gib die Zahl 2 ein (insgesamt 2 Stifte auf dem Tisch).",
-      "second": "Gib die Zahl 1 ein (erste Grossbuchstaben von: O-nly N-erds E-xamine = ONE = EINS).",
-      "third": "Klicke auf dem Bildschirm auf \"Weitere Details anzeigen\", um die zusätzlichen Informationen zu sehen.",
-      "fourth": "Gib die Zahl 263517 ein (152877 + 110640 = 263517)."
+      "first": "Geben Sie die Zahl 2 ein (insgesamt 2 Stifte auf dem Tisch).",
+      "second": "Geben Sie die Zahl 1 ein (erste Grossbuchstaben von: O-nly N-erds E-xamine = ONE = EINS).",
+      "third": "Klicken Sie auf dem Bildschirm auf \"Weitere Details anzeigen\", um die zusätzlichen Informationen zu sehen.",
+      "fourth": "Geben Sie die Zahl 1323 ein (1169 + 154 = 1323)."
     }
   },
   "click": {
     "one": "Klicken, um den Ordner-Explorer zu öffnen",
     "two": "Klicken, um den Ordner zu öffnen",
-    "three": "Es sieht aus, als hättest du den richtigen Zugang...",
+    "three": "Es sieht aus, als hätten Sie den richtigen Zugang...",
     "four": "Ist das eine Post-it-Karte?",
     "five": "Klicken, um die Post-it-Karte zu vergrössern und anzuzeigen",
     "six": "Das könnte ein interessantes Datum sein",
@@ -336,43 +336,43 @@
   },
   "endScreen": {
     "congratulations": "Herzlichen Glückwunsch!!",
-    "congratulationsMessage": "Herzlichen Glückwunsch! Du hast deine Mission und deine Roadmap erfolgreich abgeschlossen. Sie wird dein Leitfaden für dein eigenes Projekt sein. Du hast grossartige Arbeit geleistet und kannst endlich selbst in den Ferienmodus wechseln! Im Januar bist du wieder fit und bereit, dein Forschungsprojekt anzugehen und ein gutes Datenmanagement sicherzustellen.",
-    "roadmapTitle": "Deine Forschungs-Roadmap",
-    "roadmapDescription": "Diese Roadmap wird dich durch dein kommendes Forschungsprojekt führen:",
+    "congratulationsMessage": "Herzlichen Glückwunsch! Sie haben Ihre Mission und Ihre Roadmap erfolgreich abgeschlossen. Sie wird Ihr Leitfaden für Ihr eigenes Projekt sein. Sie haben grossartige Arbeit geleistet und können endlich selbst in den Ferienmodus wechseln! Im Januar sind Sie wieder fit und bereit, Ihr Forschungsprojekt anzugehen und ein gutes Datenmanagement sicherzustellen.",
+    "roadmapTitle": "Ihre Forschungs-Roadmap",
+    "roadmapDescription": "Diese Roadmap wird Sie durch Ihr kommendes Forschungsprojekt führen:",
     "contactTitle": "Kontakt & Feedback",
-    "nameLabel": "Dein Name",
-    "namePlaceholder": "Gib deinen vollständigen Namen ein",
+    "nameLabel": "Ihr Name",
+    "namePlaceholder": "Geben Sie Ihren vollständigen Namen ein",
     "emailLabel": "E-Mail-Adresse",
-    "emailPlaceholder": "Gib deine E-Mail-Adresse ein",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
     "messageLabel": "Nachricht",
-    "messagePlaceholder": "Teile dein Feedback, deine Fragen oder Vorschläge...",
+    "messagePlaceholder": "Teilen Sie Ihr Feedback, Ihre Fragen oder Vorschläge...",
     "sendMessage": "Nachricht senden",
     "sending": "Wird gesendet...",
     "messageSent": "Nachricht wird verarbeitet...",
-    "messageError": "Entschuldigung, beim Senden deiner Nachricht ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+    "messageError": "Entschuldigung, beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
     "theoryTitle": "Ergänzender Theorie-Leitfaden",
-    "theoryDescription": "Lade unseren ergänzenden Leitfaden herunter, der die gesamte in diesem Spiel vermittelte Theorie abdeckt, oder greife auf die Quellen und Dokumente der Originalversion zu.",
+    "theoryDescription": "Laden Sie unseren ergänzenden Leitfaden herunter, der die gesamte in diesem Spiel vermittelte Theorie abdeckt, oder greifen Sie auf die Quellen und Dokumente der Originalversion zu.",
     "viewPDF": "Den ergänzenden Leitfaden ansehen",
     "openLink": "Das Originalspiel ansehen",
     "optional": "EMPFOHLEN",
     "testGameTitle": "Wissens-Challenge",
-    "testGameDescription": "Teste dein Verständnis mit 6 Fragen zu dem, was du gelernt hast.",
+    "testGameDescription": "Testen Sie Ihr Verständnis mit 6 Fragen zu dem, was Sie gelernt haben.",
     "challenge": "Challenge",
     "quickTest": "15 Min.",
     "startTest": "Challenge starten",
-    "testGameNote": "Dies ist völlig optional, wird aber sehr empfohlen, um dein Wissen zu festigen!",
+    "testGameNote": "Dies ist völlig optional, wird aber sehr empfohlen, um Ihr Wissen zu festigen!",
     "backToMenu": "Zurück zum Hauptmenü",
     "EndMsg2": "Danke fürs Mitspielen!"
   },
   "emergencyGame": {
     "title": "DRINGEND: E-MAIL vom 23.12 um 17:45 Uhr vom Schweizerischen Nationalfonds",
     "subtitle": "FDM-KOMPETENZTEST",
-    "description": "Klicke auf die Objekte, um deine Kenntnisse zu testen. Wenn du Hilfe benötigst, verwende den <a href='https://hevs.allinone.io/media/document/22/mission-gdr-2024-guide-complementaire.pdf' target='_blank' rel='noopener'>ergänzenden Leitfaden</a>.",
+    "description": "Klicken Sie auf die Objekte, um Ihre Kenntnisse zu testen. Wenn Sie Hilfe benötigen, verwenden Sie den <a href='https://hevs.allinone.io/media/document/23/mission-fdm-2025-ergaenzender-leitfaden.pdf' target='_blank' rel='noopener'>ergänzenden Leitfaden</a>.",
     "introduction": {
-      "message": "Erinnerung: Vergiss nicht, deine vorläufige Projekteinreichung vor dem 1. Januar einzusenden.\n\nUm eine Fristverlängerung zu erhalten, sende uns bitte einen Nachweis deiner Forschungsdatenmanagement-Kenntnisse.",
-      "context": "Du hörst die Schlüssel des Sicherheitsbeamten im Flur klimpern. Das Gebäude wird um Punkt 18:00 Uhr abgesperrt. Du musst unbedingt vorher gehen, und da nächste Woche die Feiertagsessen geplant sind, wird es nicht möglich sein, dein vorläufiges Projekt rechtzeitig einzureichen.",
-      "urgency": "Zum Glück hast du jetzt deine Checkliste vervollständigt und Unterstützung von Santiago, Inès und Jack erhalten.",
-      "security": "Mach den Test, um deine neuen Datenmanagement-Kenntnisse zu demonstrieren und die Fristverlängerung zu erhalten.",
+      "message": "Erinnerung: Vergessen Sie nicht, Ihre vorläufige Projekteinreichung vor dem 1. Januar einzusenden.\n\nUm eine Fristverlängerung zu erhalten, senden Sie uns bitte einen Nachweis Ihrer Forschungsdatenmanagement-Kenntnisse.",
+      "context": "Sie hören die Schlüssel des Sicherheitsbeamten im Flur klimpern. Das Gebäude wird um Punkt 18:00 Uhr abgesperrt. Sie müssen unbedingt vorher gehen, und da nächste Woche die Feiertagsessen geplant sind, wird es nicht möglich sein, Ihr vorläufiges Projekt rechtzeitig einzureichen.",
+      "urgency": "Zum Glück haben Sie jetzt Ihre Checkliste vervollständigt und Unterstützung von Santiago, Inès und Jack erhalten.",
+      "security": "Machen Sie den Test, um Ihre neuen Datenmanagement-Kenntnisse zu demonstrieren und die Fristverlängerung zu erhalten.",
       "return": "Den Test jetzt nicht durchführen (zurück zur Abschlussseite)",
       "handleMyself": "Test durchführen"
     },
@@ -382,7 +382,7 @@
     "quizzes": {
       "computer": {
         "title": "Datensicherungs-Krise",
-        "question": "Letzte Woche hast du im Zug an deiner Datenanalyse gearbeitet. Deine Datei ist auf deinem persönlichen Laptop gespeichert. Zur Sicherheit hast du auch ein Backup auf deinem USB-Stick erstellt.\n\nLeider hast du beim Verlassen des Zuges deinen Rucksack (mit Laptop und USB-Stick) im Zug vergessen. Nach einer Woche wurde er immer noch nicht gefunden, was bedeutet, dass du die Datenerhebungsphase deines Projekts neu beginnen musst.\n\nGemäss der 3-2-1-1-0-Regel, was hättest du tun sollen, um das Risiko eines Datenverlusts zu minimieren?",
+        "question": "Letzte Woche haben Sie im Zug an Ihrer Datenanalyse gearbeitet. Ihre Datei ist auf Ihrem persönlichen Laptop gespeichert. Zur Sicherheit haben Sie auch ein Backup auf Ihrem USB-Stick erstellt.\n\nLeider haben Sie beim Verlassen des Zuges Ihren Rucksack (mit Laptop und USB-Stick) im Zug vergessen. Nach einer Woche wurde er immer noch nicht gefunden, was bedeutet, dass Sie die Datenerhebungsphase Ihres Projekts neu beginnen müssen.\n\nGemäss der 3-2-1-1-0-Regel, was hätten Sie tun sollen, um das Risiko eines Datenverlusts zu minimieren?",
         "options": [
           "Immer mindestens zwei verschiedene USB-Sticks verwenden",
           "Eine Kopie der Daten auf dem institutionellen Netzwerkserver speichern, der täglich gesichert wird",
@@ -412,7 +412,7 @@
       },
       "mouse": {
         "title": "Reihenfolge des FDM-Lebenszyklus",
-        "question": "Chaos! Die FDM-Roadmap ist völlig durcheinander!\n\nDeine Kollegin hat 6 Post-it-Karten hinterlassen, aber der Wind hat sie vom Monitor geweht:\n\n🟡(1) \"Daten aufbereiten und analysieren\"\n🟢(2) \"Forschungsvorhaben planen\"\n🔵(3) \"Daten erheben\"\n🟠(4) \"Daten nachnutzen\"\n🟣(5) \"Daten archivieren\"\n🔴(6) \"Daten teilen und publizieren\"\n\nGemäss dem FDM-Lebenszyklus: In welcher Reihenfolge sollten diese 6 Phasen durchgeführt werden?",
+        "question": "Chaos! Die FDM-Roadmap ist völlig durcheinander!\n\nIhre Kollegin hat 6 Post-it-Karten hinterlassen, aber der Wind hat sie vom Monitor geweht:\n\n🟡(1) \"Daten aufbereiten und analysieren\"\n🟢(2) \"Forschungsvorhaben planen\"\n🔵(3) \"Daten erheben\"\n🟠(4) \"Daten nachnutzen\"\n🟣(5) \"Daten archivieren\"\n🔴(6) \"Daten teilen und publizieren\"\n\nGemäss dem FDM-Lebenszyklus: In welcher Reihenfolge sollten diese 6 Phasen durchgeführt werden?",
         "options": [
           "🟢 - 🔵 - 🟡 - 🟣 - 🔴 - 🟠",
           "🟡 - 🟢 - 🔵 - 🟣 - 🔴 - 🟠",
@@ -434,7 +434,7 @@
       },
       "server": {
         "title": "Repositoriumsauswahl",
-        "question": "Du suchst ein Repositorium, um deine Daten zu teilen. Welches der folgenden Kriterien wirst du NICHT zur Entscheidungsfindung heranziehen?",
+        "question": "Sie suchen ein Repositorium, um Ihre Daten zu teilen. Welches der folgenden Kriterien werden Sie NICHT zur Entscheidungsfindung heranziehen?",
         "options": [
           "Die Möglichkeit, Zugangsbedingungen für die Daten zu wählen",
           "Zuweisung eines eindeutigen Identifikators (DOI)",
@@ -464,11 +464,11 @@
     },
     "success": {
       "title": "Fristverlängerung gewährt!",
-      "message": "Herzlichen Glückwunsch! Du hast deine Datenmanagement-Kenntnisse erfolgreich nachgewiesen und deine Ferien gerettet. Du kannst dein Projekt am 30. Januar einreichen.",
+      "message": "Herzlichen Glückwunsch! Sie haben Ihre Datenmanagement-Kenntnisse erfolgreich nachgewiesen und Ihre Ferien gerettet. Sie können Ihr Projekt am 30. Januar einreichen.",
       "continue": "Zurück zur Abschlussseite"
     },
     "errors": {
-      "incorrectAnswer": "Falsche Antwort. Bitte versuch es nochmal."
+      "incorrectAnswer": "Falsche Antwort. Bitte versuchen Sie es nochmal."
     }
   }
 }
